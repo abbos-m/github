@@ -1,0 +1,115 @@
+repo_name,month,languages,stars_count,forks_count,resolution_time_hours
+BitCrackers/AmongUsMenu,2023-01,"C, C++",459,913,396.9612138888889
+EmirBurgosPaz/interfaz_arduino,2023-01,C++,0,0,0
+Filigrani/SkyCoop,2023-01,C#,154,24,1236.4912099811675
+Q309166/-,2023-01,,1,0,0
+apache/age,2023-01,"C, Makefile, PLpgSQL, Roff, Lex, Yacc, Shell, JavaScript, TypeScript, ANTLR",2829,399,2110.0305416666665
+bucanero/apollo-saves,2023-01,C,94,29,1146.5297249999999
+drphil3d/uptime,2023-01,,,,
+sepal-contrib/planet_active_fires_explorer,2023-01,"Jupyter Notebook, Python, CSS",2,2,1132.7084229390682
+the-paid-actor/dcs-dtc,2023-01,"C#, Lua",166,35,0
+vaadin/hilla,2023-01,"TypeScript, JavaScript, Java, HTML, CSS, Kotlin, Shell",862,58,3805.8211416666663
+KLayout/klayout,2023-02,"QMake, C++, C, CSS, Python, Ruby, Shell, AppleScript, Makefile, Batchfile",741,191,3028.006475
+OpenBB-finance/OpenBBTerminal,2023-02,Python,26578,2600,552.9916583333334
+SatanWoo/TrampolineHook,2023-02,"Objective-C, Assembly, Ruby",521,61,0.4552777777777778
+Sybit-Education/airtable.java,2023-02,Java,48,25,9067.391916666666
+TencentBlueKing/bk-repo,2023-02,"Shell, Kotlin, Java, JavaScript, Vue, HTML, SCSS, CSS, Lua, Dockerfile",58,35,1564.3376833333334
+a-t-0/snncompare,2023-02,"Python, Shell",1,0,1152.5464055555556
+cebreus/upptime,2023-02,"YAML, Markdown, JSON",1,0,1.597825
+lambdaclass/lambdaworks,2023-02,"Dockerfile, Makefile, Nix, Rust, Metal, Cuda, C, Cairo",580,123,1828.2002194444444
+tsantalis/RefactoringMiner,2023-02,"Java, Dockerfile",344,132,875.8430805555555
+vmware/pyvmomi,2023-02,Python,2190,767,14466.602041666667
+FpabloAyala/board-brush,2023-03,"HTML, JavaScript, CSS",0,0,0
+Fragon-Studios/ishjarta,2023-03,"C#, HLSL, ShaderLab, HTML",1,1,970.8046475507765
+FrozenXE/SchoolProject,2023-03,,,,
+Nivaskumark/kernel_4.19.72,2023-03,"Makefile, Roff, C, Assembly, Shell, Perl, C++, Awk, Python, sed",0,0,17515.770830555557
+Ragnarok-Roleplay/Reported-Issues,2023-03,,0,0,128.99921666666665
+Rolling-Together/RollingTogether,2023-03,"Kotlin, Dart, HTML",1,2,386.77737103174604
+TeamPiped/piped-uptime,2023-03,"JSON, YAML, Markdown, Python",22,2,149.33516388888887
+christianhaitian/arkos,2023-03,"Shell, Python, Erlang",1375,81,253.60070555555558
+hamboneZA/caffeine,2023-03,"YAML, Markdown, JSON",1,0,10.563983333333333
+pronamic/wp-pay-core,2023-03,"JavaScript, PHP, SCSS, CSS",27,3,616.5312542955327
+Elri87/gitTask,2023-04,JavaScript,0,0,811.8420370370371
+amannn/next-intl,2023-04,"TypeScript, JavaScript",2033,188,1431.5515166666667
+devcode-it/openstamanager,2023-04,"PHP, CSS, JavaScript, XSLT, Makefile, HTML, Shell, Perl",102,68,2365.598822222222
+esensar/kotlinx-serialization-msgpack,2023-04,Kotlin,44,9,1890.1807118055556
+initd1/HackAlert,2023-04,"Python, Dockerfile",16,4,44.127896825396824
+marticliment/WingetUI,2023-04,"Python, Batchfile, Inno Setup, PowerShell, C#",10180,335,822.0733583333333
+mo9a7i/time_now,2023-04,,1,0,0.0007277777777777778
+ruffle-rs/ruffle,2023-04,"Rust, JavaScript, HTML, ActionScript, Shell, GLSL, TypeScript, CSS, Dockerfile, Fluent",14993,772,7563.766322222223
+ttomtsis/DVDApplication,2023-04,"Java, Batchfile, Python",1,2,409.4806222222222
+wellcomecollection/wellcomecollection.org,2023-04,"JavaScript, Shell, HCL, HTML, Dockerfile, TypeScript, MDX",37,5,1581.9016555555556
+Arquisoft/lomap_es6a,2023-05,"Dockerfile, TypeScript, Gherkin, Scala, HTML, CSS, Batchfile, Shell, JavaScript",1,0,13.929402777777778
+COS301-SE-2023/WordWizard,2023-05,"TypeScript, HTML, SCSS, JavaScript, Python, Procfile, Java",9,3,507.8087861111111
+Kurokesu/SCE2-SDK,2023-05,Python,9,4,3801.1335185185185
+Livl-Corporation/livl-pacman,2023-05,"CMake, C",0,1,267.84785714285715
+MayuKishimoto/deli_reco,2023-05,"Ruby, JavaScript, CSS, HTML, SCSS",1,0,8.420644444444445
+appsmithorg/appsmith,2023-05,"Dockerfile, Java, HTML, Shell, JavaScript, CSS, TypeScript, Handlebars, Smarty, Procfile",32294,3496,2159.7558833333333
+edgehog-device-manager/edgehog,2023-05,"Elixir, Dockerfile, Shell, JavaScript, HTML, TypeScript, SCSS, Python, Batchfile, Nix",31,16,1974.128036111111
+etcd-io/etcd,2023-05,"Shell, Go, Makefile, Dockerfile, Jsonnet, Procfile",46785,9641,1650.5552916666666
+nearform/fastify-casbin,2023-05,"JavaScript, TypeScript",20,1,1534.89328125
+pddemo/demo,2023-05,,7,3,0
+052223-java-angular/Navarrete-p1-backend,2023-06,Java,0,1,91.63382716049382
+AhmetAksunger/ChitChat,2023-06,"Java, HTML, JavaScript, CSS, Dockerfile",15,0,75.69027777777778
+LiLittleCat/awesome-free-chatgpt,2023-06,Python,17035,1198,41.59748888888889
+PygmalionOfCyprus/cmo-db-requests,2023-06,,49,16,1170.8330055555557
+ansible/ansible-documentation,2023-06,"Python, Shell, Jinja",62,367,2777.850611111111
+guillaumekln/faster-whisper,2023-06,"Python, Dockerfile",10056,849,166.00631666666666
+pinax-network/antelope-abi2rs,2023-06,"TypeScript, JavaScript",0,0,456.5293981481481
+pingcap/tispark,2023-06,"Scala, Shell, Makefile, Java, ANTLR, Starlark",880,243,5610.0922388888885
+scriptscat/scriptcat,2023-06,"JavaScript, TypeScript, HTML, Smarty, CSS",1236,117,1632.6735611111112
+code4recovery/sheets,2023-07,"PHP, Blade",0,0,132.26210858585858
+datawhores/OF-Scraper,2023-07,"Python, Dockerfile",559,50,403.24057500000004
+kinjalsoftnoesis/Test,2023-07,,0,0,0
+linkspreed/linkspreed_uptime,2023-07,"JSON, YAML, Markdown",4,1,2.5806055555555556
+microsoft/vscode,2023-07,"JavaScript, TypeScript, Batchfile, Shell, CSS, HTML, PowerShell, Python, Inno Setup, Roff",160192,28061,2897.6183805555556
+neukg/TechGPT,2023-07,Python,204,11,929.7827564102564
+sap-tutorials/abap-core-development,2023-07,,15,18,202.4364833333333
+shmishra99/actionFlow,2023-07,JavaScript,0,2,11.824069444444445
+zbw/stw-mappings,2023-07,"Perl, Shell",2,1,1406.8674666666666
+CASIA-IVA-Lab/FastSAM,2023-08,"Python, Shell",7090,665,261.1686235955056
+CharlieMat/GFN4Rec,2023-08,"Jupyter Notebook, Python, Shell",10,1,639.9115277777778
+CityOfZion/dora,2023-08,"HTML, CSS, TypeScript, JavaScript, SCSS",11,9,2134.7374916666668
+HowBaChu/Frontend,2023-08,"JavaScript, HTML, CSS",0,2,500.28102713178293
+hetznercloud/hcloud-cloud-controller-manager,2023-08,"Go, Shell, Dockerfile, Smarty, Jinja",675,108,1206.5517
+megastruktur/foundryvtt-blades-in-the-dark,2023-08,"JavaScript, HTML, SCSS",37,98,447.1719152046783
+miranda-ng/miranda-ng,2023-08,"Shell, Pascal, C, C++, Assembly, CSS, JavaScript, HTML, XSLT, TeX",473,122,1675.1592083333335
+mobilitysol/monitorweb,2023-08,"YAML, Markdown, JSON",0,0,2.39265
+pulumi/pulumi-eks,2023-08,"Makefile, TypeScript, Go, Shell, JavaScript, C#, Python, Java",168,77,2734.4370833333332
+qallen028/nitter-instances,2023-08,"JSON, YAML, Markdown",4,2,160.34859444444442
+LeetCode-Feedback/LeetCode-Feedback,2023-09,,650,302,46.536202777777774
+SparksTheFolf/STF-Uptime-Status,2023-09,"JSON, YAML, Markdown",0,0,0.5565138888888889
+X-Sharp/XSharpPublic,2023-09,"C#, xBase, SystemVerilog, C, Batchfile, HTML, Rich Text Format, Smarty, Vim Snippet, CSS",89,35,4072.4623916666665
+aflori/projetAPI,2023-09,Java,0,1,198.35344444444445
+gatewayd-io/gatewayd,2023-09,"Go, Makefile, CSS, HTML, JavaScript, Dockerfile, Shell",196,16,1666.8222333333333
+ietf-tools/datatracker,2023-09,"JavaScript, Python, Shell, C, CSS, HTML, Dockerfile, TeX, Makefile, Perl",523,310,15255.192775000001
+microsoft/ALAppExtensions,2023-09,"JavaScript, Perl, AL, CSS, PowerShell",747,600,4286.796672222222
+rectorphp/rector,2023-09,PHP,8405,673,909.0813694444445
+GoogleCloudPlatform/python-docs-samples,2023-10,"Python, Shell, CSS, HTML, JavaScript, Makefile, Dockerfile, Jupyter Notebook, Jinja, Procfile",7077,6343,1880.6239249999999
+NCAR/geocat-applications,2023-10,"Jupyter Notebook, TeX, CSS, Makefile, Python, Batchfile, NCL",4,5,576.7359090909091
+Nieuwe-Warmte-Nu/issues-and-project,2023-10,,0,0,743.0254305555555
+RKTowse/upptime,2023-10,"JSON, YAML, Markdown",0,0,212.77502777777778
+abdulmaleekadams/simple_shell,2023-10,C,0,1,163.01453333333333
+fox0430/moe,2023-10,"Nim, Shell",627,32,700.449561111111
+googleapis/python-compute,2023-10,,39,28,837.8598821548821
+hshivhare67/kernel_v4.19.72_CVE-2023-0461,2023-10,"Makefile, Roff, C, Assembly, Shell, Perl, C++, Awk, Python, sed",0,2,4174.533641666667
+information-artifact-ontology/ontology-metadata,2023-10,"Makefile, Shell, Batchfile, Scala, Ruby",19,8,13223.93144675926
+zephyrproject-rtos/zephyr,2023-10,"Assembly, C, C++, Shell, Perl, Python, Verilog, CMake, Batchfile, EmberScript",10009,6157,4973.404233333333
+AdguardTeam/AdguardFilters,2023-11,"Adblock Filter List, Shell, JavaScript",2921,613,328.01629444444444
+VolumeFi/paloma,2023-11,"Shell, Go, Makefile, Dockerfile",3,2,951.3810166666667
+apache/camel-kamelets,2023-11,"Gherkin, Java, Go, Groovy, Shell, Makefile, HCL",51,71,2028.5086694444444
+boostcampwm2023/web11-SSOCK,2023-11,"JavaScript, HTML, TypeScript, Dockerfile, Shell",69,5,405.1052211934157
+ganuza/MixMaster,2023-11,"HTML, CSS, JavaScript",0,0,6.063773148148147
+pmav99/techrad-status,2023-11,"JSON, YAML, Markdown",0,0,0.8093611111111111
+whytspace/upptime-holiday-lescala,2023-11,"JSON, YAML, Markdown",0,0,78.01158611111111
+wormhole-foundation/wormhole-connect,2023-11,"HTML, CSS, TypeScript, Shell, JavaScript",70,47,890.5977333333333
+DOI-USGS/asc-public-docs,2023-12,HTML,0,5,1550.5762713675215
+JuliaGeometry/Meshes.jl,2023-12,Julia,375,79,1801.0727444444444
+MaFi-Games/Captain-of-Industry-issues,2023-12,,21,4,2774.045272222222
+Ultimaker/Cura,2023-12,"Python, QML, Shell, CMake, GLSL, HTML, Jinja, NSIS, XSLT, Rich Text Format",5957,2042,2096.4936166666666
+Valdes-Tresanco-MS/gmx_MMPBSA,2023-12,"Python, Shell",198,63,1214.7813888888888
+department-of-veterans-affairs/va.gov-team,2023-12,"JavaScript, Ruby, HTML, CSS, Jupyter Notebook, Shell, Python, TSQL, Roff, Hack",277,194,7420.032577777778
+element-hq/synapse,2023-12,"Shell, JavaScript, Python, Perl, Lua, Rust, CSS, Nix, HTML, Dockerfile",970,110,3.702775
+ghscr/ghscription,2023-12,,,,
+h4sh5/pypi-auto-scanner,2023-12,"Python, Shell, Go",26,7,71.14234444444445
+wbreiler/uptimemonitor,2023-12,"JSON, YAML, Markdown",0,0,72.023125
