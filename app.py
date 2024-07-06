@@ -52,7 +52,7 @@ def get_repo_details_and_issues(owner, repo):
         defaultBranchRef {{
           target {{
             ... on Commit {{
-              history(first: 1) {{
+              history(first: 60) {{
                 edges {{
                   node {{
                     committedDate
@@ -125,6 +125,18 @@ def count_issues_resolved_last_60_days(issues):
 
     return resolved_count
 
+# Function to count commits in the last 60 days
+def count_commits_last_60_days(commits):
+    commit_count = 0
+    sixty_days_ago = datetime.now() - timedelta(days=60)
+
+    for commit in commits:
+        committed_date = datetime.strptime(commit['node']['committedDate'], '%Y-%m-%dT%H:%M:%SZ')
+        if committed_date >= sixty_days_ago:
+            commit_count += 1
+
+    return commit_count
+
 # Function to save campaign data to a JSON file
 def save_campaign(campaign_data):
     with open(CAMPAIGN_FILE, 'w') as f:
@@ -138,7 +150,7 @@ def load_campaign():
     return []
 
 # Load the CSV data for visualizations
-csv_file_path = r'hundred_repos_data.csv'
+csv_file_path = r'topthousandrepos.csv'
 df = pd.read_csv(csv_file_path)
 
 # Initialize the session state for campaign repositories
@@ -148,7 +160,7 @@ if 'campaign_repos' not in st.session_state:
 campaign_repos = st.session_state.campaign_repos
 
 # Create tabs
-tab1, tab2, tab3, tab4 = st.tabs(["Repo Search", "Developer Search", "Visualizations", "Campaign"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Repo Search", "Developer Search", "Visualizations", "Campaign", "Comparison"])
 
 with tab1:
     st.title('GitHub Repository Details')
@@ -194,12 +206,16 @@ with tab1:
                     # Count issues resolved in the last 60 days
                     issues_resolved_last_60_days = count_issues_resolved_last_60_days(issues)
 
+                    # Count commits in the last 60 days
+                    commits_last_60_days = count_commits_last_60_days(latest_commit_edge)
+
                     # Display the details
                     st.write(f"**Stars:** {stargazers_count}")
                     st.write(f"**Forks:** {fork_count}")
                     st.write(f"**Languages:** {', '.join(languages)}")
                     st.write(f"**Average issue resolution time:** {average_time_formatted}")
                     st.write(f"**Issues solved in the last 60 days:** {issues_resolved_last_60_days}")
+                    st.write(f"**Commits in the last 60 days:** {commits_last_60_days}")
                     if latest_commit:
                         committed_date = datetime.strptime(latest_commit['committedDate'], '%Y-%m-%dT%H:%M:%SZ')
                         latest_commit_str = f"[{latest_commit['message']}]({latest_commit['url']}) on {committed_date.strftime('%Y-%m-%d %H:%M:%S')}"
@@ -227,7 +243,8 @@ with tab1:
                             "average_issue_resolution_time": average_time_formatted,
                             "latest_commit_date": committed_date.strftime('%Y-%m-%d') if latest_commit else None,
                             "contributors": ', '.join([contributor['login'] for contributor in contributors]),
-                            "issues_solved_last_60_days": issues_resolved_last_60_days
+                            "issues_solved_last_60_days": issues_resolved_last_60_days,
+                            "commits_last_60_days": commits_last_60_days
                         })
                         save_campaign(campaign_repos)  # Save the campaign data
                         st.success(f"Repository {owner}/{repo} added to the campaign.")
@@ -255,6 +272,19 @@ with tab2:
                 st.write(f"Repositories contributed to by **{dev_input}**:")
                 for repo in dev_info:
                     st.write(f"- [{repo['name']}]({repo['html_url']})")
+
+                # Count commits in the last 60 days for each repo
+                total_commits_last_60_days = 0
+                for repo in dev_info:
+                    repo_name = repo['name']
+                    owner = repo['owner']['login']
+                    repo_info, error = get_repo_details_and_issues(owner, repo_name)
+                    if repo_info:
+                        commits_last_60_days = count_commits_last_60_days(repo_info['data']['repository']['defaultBranchRef']['target']['history']['edges'])
+                        total_commits_last_60_days += commits_last_60_days
+
+                st.write(f"**Total commits in the last 60 days:** {total_commits_last_60_days}")
+
             else:
                 st.error(f"Developer {dev_input} not found or API response is malformed.")
         else:
@@ -264,7 +294,7 @@ with tab3:
     st.title('Visualizations')
 
     # Most Popular Programming Languages
-    st.subheader('Most Popular Programming Languages')
+    st.header('Most Popular Programming Languages')
     languages = df['languages'].str.split(', ').explode().dropna()
     lang_counts = languages.value_counts().head(10)
 
@@ -277,26 +307,56 @@ with tab3:
         ax.text(lang_counts.values[i], i, str(lang_counts.values[i]), color='black', ha="left")
     st.pyplot(fig)
 
-    st.write("Programming language counts:")
-    st.write(lang_counts)
+    # All Identified Programming Languages with Counts
+    st.header('All Identified Programming Languages with Counts')
+    all_lang_counts = languages.value_counts()
+
+    st.write("All programming language counts:")
+    st.write(all_lang_counts)
 
     # Average Issue Resolution Time
-    st.subheader('Average Issue Resolution Time')
+    st.header('Average Issue Resolution Time')
     avg_resolution_time = df[df['resolution_time_hours'].notnull()]['resolution_time_hours'].mean()
     avg_resolution_time_days = avg_resolution_time / 24  # Convert to days for clarity
     st.write(f'The average issue resolution time is {avg_resolution_time_days:.2f} days.')
 
-    # Community Engagement: Stars and Forks
-    st.subheader('Community Engagement: Stars and Forks')
-    top_repos = df.sort_values(by='stars_count', ascending=False).head(10)
+    # Fastest Issue Resolution Time
+    st.header('Fastest Issue Resolution Time')
+    fastest_resolution_times = df[(df['resolution_time_hours'].notnull()) & (df['resolution_time_hours'] > 0)].sort_values(by='resolution_time_hours').head(10)
 
     fig, ax = plt.subplots()
-    sns.barplot(x=top_repos['stars_count'], y=top_repos['repo_name'], ax=ax)
+    sns.barplot(x=fastest_resolution_times['resolution_time_hours'].round(0), y=fastest_resolution_times['repo_name'], ax=ax)
+    ax.set_title('Top 10 Repositories by Fastest Issue Resolution Time')
+    ax.set_xlabel('Resolution Time (hours)')
+    ax.set_ylabel('Repository')
+    for i in range(len(fastest_resolution_times)):
+        ax.text(fastest_resolution_times['resolution_time_hours'].values[i].round(0), i, str(fastest_resolution_times['resolution_time_hours'].values[i].round(0)), color='black', ha="left")
+    st.pyplot(fig)
+
+    # Community Engagement: Stars
+    st.header('Community Engagement: Stars')
+    top_stars_repos = df.sort_values(by='stars_count', ascending=False).head(10)
+
+    fig, ax = plt.subplots()
+    sns.barplot(x=top_stars_repos['stars_count'], y=top_stars_repos['repo_name'], ax=ax)
     ax.set_title('Top 10 Repositories by Stars')
     ax.set_xlabel('Stars')
     ax.set_ylabel('Repository')
-    for i in range(len(top_repos)):
-        ax.text(top_repos['stars_count'].values[i], i, str(top_repos['stars_count'].values[i]), color='black', ha="left")
+    for i in range(len(top_stars_repos)):
+        ax.text(top_stars_repos['stars_count'].values[i], i, str(top_stars_repos['stars_count'].values[i]), color='black', ha="left")
+    st.pyplot(fig)
+
+    # Community Engagement: Forks
+    st.header('Community Engagement: Forks')
+    top_forks_repos = df.sort_values(by='forks_count', ascending=False).head(10)
+
+    fig, ax = plt.subplots()
+    sns.barplot(x=top_forks_repos['forks_count'], y=top_forks_repos['repo_name'], ax=ax)
+    ax.set_title('Top 10 Repositories by Forks')
+    ax.set_xlabel('Forks')
+    ax.set_ylabel('Repository')
+    for i in range(len(top_forks_repos)):
+        ax.text(top_forks_repos['forks_count'].values[i], i, str(top_forks_repos['forks_count'].values[i]), color='black', ha="left")
     st.pyplot(fig)
 
 with tab4:
@@ -322,3 +382,60 @@ with tab4:
 
     else:
         st.write("No repositories in the campaign. Add repositories from the Repo Search tab.")
+
+with tab5:
+    st.title('Comparison')
+
+    if len(campaign_repos) >= 2:
+        repo_options = [f"{repo['owner']}/{repo['repo_name']}" for repo in campaign_repos]
+        repo1, repo2 = st.selectbox('Select first repository to compare', repo_options), st.selectbox('Select second repository to compare', repo_options, index=1)
+
+        if repo1 and repo2:
+            repo1_data = next(repo for repo in campaign_repos if f"{repo['owner']}/{repo['repo_name']}" == repo1)
+            repo2_data = next(repo for repo in campaign_repos if f"{repo['owner']}/{repo['repo_name']}" == repo2)
+
+            st.write(f"## Comparison between {repo1} and {repo2}")
+
+            if st.checkbox('Show Stars Comparison'):
+                st.write("### Stars")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['stars']}")
+                col2.write(f"**{repo2}:** {repo2_data['stars']}")
+
+            if st.checkbox('Show Forks Comparison'):
+                st.write("### Forks")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['forks']}")
+                col2.write(f"**{repo2}:** {repo2_data['forks']}")
+
+            if st.checkbox('Show Languages Comparison'):
+                st.write("### Languages")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['languages']}")
+                col2.write(f"**{repo2}:** {repo2_data['languages']}")
+
+            if st.checkbox('Show Average Issue Resolution Time Comparison'):
+                st.write("### Average Issue Resolution Time")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['average_issue_resolution_time']}")
+                col2.write(f"**{repo2}:** {repo2_data['average_issue_resolution_time']}")
+
+            if st.checkbox('Show Issues Solved in the Last 60 Days Comparison'):
+                st.write("### Issues Solved in the Last 60 Days")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['issues_solved_last_60_days']}")
+                col2.write(f"**{repo2}:** {repo2_data['issues_solved_last_60_days']}")
+
+            if st.checkbox('Show Commits in the Last 60 Days Comparison'):
+                st.write("### Commits in the Last 60 Days")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['commits_last_60_days']}")
+                col2.write(f"**{repo2}:** {repo2_data['commits_last_60_days']}")
+
+            if st.checkbox('Show Latest Commit Date Comparison'):
+                st.write("### Latest Commit Date")
+                col1, col2 = st.columns(2)
+                col1.write(f"**{repo1}:** {repo1_data['latest_commit_date']}")
+                col2.write(f"**{repo2}:** {repo2_data['latest_commit_date']}")
+    else:
+        st.write("Add at least two repositories to the campaign for comparison.")

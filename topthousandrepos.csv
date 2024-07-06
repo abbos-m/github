@@ -1,0 +1,1001 @@
+repo_name,languages,stars_count,forks_count,resolution_time_hours
+freeCodeCamp/freeCodeCamp,"JavaScript, CSS, HTML, Shell, Less, EJS, Dockerfile, TypeScript",392612,36105,162.064075
+EbookFoundation/free-programming-books,,326257,60530,426.15921111111106
+sindresorhus/awesome,,309686,27008,3234.542911111111
+jwasham/coding-interview-university,,297894,74980,4571.094630555555
+public-apis/public-apis,"Shell, Python",297846,32286,1146.0814055555556
+codecrafters-io/build-your-own-x,,281878,26460,12.352402777777778
+kamranahmedse/developer-roadmap,"TypeScript, JavaScript, Astro, CSS, Shell",281303,37541,4334.5454361111115
+996icu/996.ICU,,269430,21234,0
+donnemartin/system-design-primer,"Python, Shell",262754,44580,2993.5465729585007
+facebook/react,"JavaScript, Shell, CoffeeScript, TypeScript, Python, C++, C, Makefile, HTML, CSS",224956,45869,2654.376697222222
+vinta/awesome-python,"Python, Makefile",211649,24623,0
+vuejs/vue,"JavaScript, HTML, Shell, CSS, TypeScript",207339,33630,520.5594222222222
+awesome-selfhosted/awesome-selfhosted,,186113,9199,6174.279113888889
+trekhleb/javascript-algorithms,"JavaScript, Shell",185112,29861,619.4188111111112
+tensorflow/tensorflow,"Python, C++, C, Java, Shell, Jupyter Notebook, CMake, Makefile, Objective-C, Objective-C++",183892,74034,2437.7621555555556
+TheAlgorithms/Python,"Python, Dockerfile",181919,43976,2344.4134444444444
+practical-tutorials/project-based-learning,,180402,23694,4237.816902985074
+getify/You-Dont-Know-JS,,177886,33389,2736.5646138888887
+torvalds/linux,"Makefile, C, Assembly, C++, Shell, Perl, Awk, Python, UnrealScript, Yacc",174161,52486,0
+CyC2018/CS-Notes,,173516,50762,173.77768333333333
+ohmyzsh/ohmyzsh,"Shell, Python, Makefile",170654,25704,8485.700761111111
+twbs/bootstrap,"JavaScript, HTML, CSS, PowerShell, SCSS",168018,78539,138.919225
+ossu/computer-science,,165550,20912,166.42121944444446
+Significant-Gravitas/AutoGPT,"Python, Dockerfile, Batchfile, Shell, JavaScript, HTML, TypeScript, CSS, Jinja, Kotlin",163650,43452,535.4101444444444
+flutter/flutter,"Dart, Shell, HTML, Objective-C, PowerShell, Batchfile, Java, Swift, Ruby, CSS",163127,26842,4514.966730555556
+microsoft/vscode,"JavaScript, TypeScript, Batchfile, Shell, CSS, HTML, PowerShell, Python, Inno Setup, Roff",160323,28092,2897.6183805555556
+github/gitignore,,159444,83218,0
+jackfrued/Python-100-Days,"Python, HTML, JavaScript, CSS, Java, Jupyter Notebook",152459,51648,2540.830213888889
+jlevy/the-art-of-command-line,,150776,14399,4339.950608333334
+Snailclimb/JavaGuide,"Java, JavaScript",144661,45398,793.3948222222222
+airbnb/javascript,JavaScript,142906,26292,3221.354363888889
+trimstray/the-book-of-secret-knowledge,,136648,9177,0
+AUTOMATIC1111/stable-diffusion-webui,"Python, CSS, JavaScript, Batchfile, Shell, HTML",135297,25833,197.20018611111112
+ytdl-org/youtube-dl,"Makefile, Python, Shell, ActionScript, Batchfile",129750,9781,4068.693675
+huggingface/transformers,"Python, Dockerfile, Shell, Makefile, Jsonnet, C, C++, Cuda, Cython",128610,25513,214.37590555555556
+avelino/awesome-go,Go,124681,11703,2893.1456305555553
+labuladong/fucking-algorithm,Markdown,124215,23130,259.303225
+vercel/next.js,"JavaScript, CSS, TypeScript, Shell, SCSS, Sass, Rust, Batchfile, Dockerfile, MDX",122869,26272,1181.4727138888888
+golang/go,"Shell, Go, C, HTML, JavaScript, Assembly, Makefile, Awk, Perl, Python",121121,17368,44469.595263888885
+Chalarangelo/30-seconds-of-code,"JavaScript, TypeScript, Astro, Shell, SCSS, CSS",120285,11927,77.07449444444444
+facebook/react-native,"Objective-C, JavaScript, Shell, HTML, Ruby, C, Objective-C++, Java, C++, Assembly",117073,24069,1172.8320388888887
+yangshun/tech-interview-handbook,"HTML, JavaScript, Python, CSS, TypeScript",113808,14294,2796.726586021505
+electron/electron,"C++, C, Objective-C++, Objective-C, Python, HTML, JavaScript, Shell, CSS, TypeScript",112727,15109,948.3345888888889
+justjavac/free-programming-books-zh_CN,,109931,28119,0
+kubernetes/kubernetes,"Python, Makefile, Shell, C, Go, HTML, sed, Dockerfile, PowerShell, Batchfile",108303,38857,5293.081066666667
+d3/d3,"JavaScript, Shell",108076,22889,4272.627936111111
+microsoft/PowerToys,"Batchfile, C++, C, C#, PowerShell, HLSL, HTML, JavaScript",106970,6308,10357.698075
+f/awesome-chatgpt-prompts,"HTML, Shell",106832,14602,0
+Genymobile/scrcpy,"Makefile, Meson, C, Java, Shell, Roff, Batchfile, VBScript, AIDL",105346,10230,4351.624772222222
+nodejs/node,"JavaScript, Shell, C, Makefile, C++, Python, R, Batchfile, HTML, Emacs Lisp",105137,28478,834.9414166666667
+axios/axios,"JavaScript, HTML, TypeScript, Handlebars",104587,10762,3528.867702777778
+facebook/create-react-app,"JavaScript, CSS, HTML, Shell, AppleScript, TypeScript, Sass, SCSS",102211,26676,699.3633
+mrdoob/three.js,"JavaScript, CSS, HTML, Roff, SCSS",100364,35197,494.09488055555556
+microsoft/TypeScript,"JavaScript, TypeScript, Shell, Dockerfile",99052,12293,5160.856486111112
+goldbergyoni/nodebestpractices,"Dockerfile, TypeScript",97197,9874,4459.669105555556
+angular/angular,"JavaScript, HTML, CSS, Shell, TypeScript, Starlark, SCSS, Less",95154,24953,4422.188477777778
+rust-lang/rust,"Makefile, Rust, CSS, Python, Shell, C, C++, JavaScript, Puppet, Pascal",94797,12216,5959.103758333334
+GrowingGit/GitHub-Chinese-Top-Charts,Java,94378,12589,9200.112905555556
+microsoft/terminal,"C#, Batchfile, PowerShell, C++, C, Roff, Python, JavaScript, HTML, HLSL",94194,8157,10374.684247222222
+denoland/deno,"TypeScript, JavaScript, Rust, Dockerfile, Lua, C, CSS",93396,5181,920.9045833333333
+mui/material-ui,"JavaScript, HTML, TypeScript, CSS",92429,31837,1511.7832250000001
+ant-design/ant-design,"HTML, JavaScript, TypeScript, Shell, CSS",91019,47508,737.9468055555556
+ryanmcdermott/clean-code-javascript,JavaScript,90622,12164,1847.536951058201
+langchain-ai/langchain,"Python, Makefile, HTML, Dockerfile, TeX, JavaScript, Shell, XSLT, Jupyter Notebook, MDX",88587,13917,2876.218594444444
+iluwatar/java-design-patterns,"Java, HTML, CSS, Shell",88275,26191,26459.656941666664
+puppeteer/puppeteer,"JavaScript, CSS, HTML, TypeScript, Shell, Dockerfile, MDX",87602,9033,1043.3370972222222
+521xueweihan/HelloGitHub,Python,87515,9478,690.3833222222222
+PanJiaChen/vue-element-admin,"JavaScript, HTML, Vue, CSS, Handlebars, SCSS",87050,30390,225.75494444444445
+godotengine/godot,"C++, Python, Shell, Objective-C, Objective-C++, Java, JavaScript, C#, GLSL, CMake",86368,19232,8088.196511111111
+ripienaar/free-for-dev,HTML,85566,9301,0
+massgravel/Microsoft-Activation-Scripts,"Batchfile, HTML",85544,8354,899.9804944444444
+papers-we-love/papers-we-love,Shell,85127,5672,7142.802438888889
+nvbn/thefuck,"Python, Shell, Dockerfile, Batchfile, PowerShell",83599,3409,5106.5344888888885
+storybookjs/storybook,"JavaScript, Shell, TypeScript, HTML, Vue, CSS, Svelte, EJS, SCSS, Handlebars",83399,9118,1934.1405750000001
+microsoft/Web-Dev-For-Beginners,"JavaScript, HTML, CSS, Vue",82145,12251,181.03630555555554
+fatedier/frp,"Makefile, Go, Shell, HTML, JavaScript, Vue, CSS, TypeScript",82063,12897,2437.5564611111113
+iptv-org/iptv,"JavaScript, TypeScript",81013,2052,1567.919861111111
+tailwindlabs/tailwindcss,"JavaScript, CSS, HTML, TypeScript, Rust",80303,4041,893.666125
+animate-css/animate.css,"CSS, JavaScript, HTML, Shell",80106,16237,1246.146938888889
+pytorch/pytorch,"CMake, Python, Shell, C++, C, Objective-C, Cuda, Batchfile, Makefile, Objective-C++",80117,21543,3668.66705
+Hack-with-Github/Awesome-Hacking,,79915,8774,0
+neovim/neovim,"Shell, CMake, Python, HTML, C, Lua, Makefile, Batchfile, Ruby, MATLAB",79837,5493,1671.3375777777778
+gothinkster/realworld,"Shell, TypeScript, CSS, HTML, JavaScript, Procfile, MDX",79758,7273,18612.243619444445
+krahets/hello-algo,"Java, C++, Python, Go, JavaScript, Swift, CMake, Dockerfile, Ruby",79650,10129,705.3756000000001
+tauri-apps/tauri,"Rust, JavaScript, Shell, TypeScript, Batchfile, PowerShell, AppleScript, Standard ML, CSS, HTML",79563,2360,2925.2337777777775
+django/django,"Python, CSS, JavaScript, HTML, Smarty, Procfile",77820,31198,0
+mtdvio/every-programmer-should-know,,77740,7407,2738.6775877192986
+sveltejs/svelte,"JavaScript, TypeScript, Svelte, HTML, CSS",77452,4036,3438.146675
+laravel/laravel,"PHP, Blade, JavaScript",77463,23921,0
+nvm-sh/nvm,"Makefile, Shell, JavaScript, Dockerfile",77160,7754,7289.579133333333
+bitcoin/bitcoin,"Shell, Python, Makefile, C++, C, HTML, Objective-C++, M4, Assembly, Scheme",77093,35595,6475.853280555555
+ollama/ollama,"TypeScript, JavaScript, CSS, HTML, Dockerfile, Go, Shell, Python, C, PowerShell",76968,5791,614.4027194444444
+opencv/opencv,"CMake, C++, Cuda, Shell, C, Objective-C, Java, Python, Objective-C++, PowerShell",76807,55662,19979.10416388889
+tensorflow/models,"Python, C++, Shell, Jupyter Notebook, Dockerfile, Starlark",76789,45849,1090.6188555555555
+excalidraw/excalidraw,"HTML, TypeScript, JavaScript, Dockerfile, SCSS, CSS, Shell, MDX",76757,7010,445.5298861111111
+gin-gonic/gin,"Go, Makefile",76715,7911,2322.8148111111113
+macrozheng/mall,"Java, Shell, Dockerfile",76453,28523,588.186913888889
+florinpop17/app-ideas,,76167,9229,1560.7671188630493
+yt-dlp/yt-dlp,"Makefile, Python, Shell, Batchfile, Dockerfile",76185,5992,462.12196111111115
+tonsky/FiraCode,"Clojure, CSS, HTML, Shell, PureBasic, Python, Dockerfile, Makefile",76060,3074,3466.708063888889
+MisterBooo/LeetCodeAnimation,"Java, Python, C++",75128,13969,303.58237433862433
+doocs/advanced-java,Java,75074,18932,871.2912722222222
+spring-projects/spring-boot,"Java, Smarty, HTML, Groovy, Shell, Ruby, CSS, JavaScript, Batchfile, Kotlin",73601,40322,2305.6530333333335
+gohugoio/hugo,"Go, Shell, HTML, Dockerfile, CSS, JavaScript",73571,7388,4991.507697222222
+FortAwesome/Font-Awesome,"CSS, JavaScript, Less, SCSS",73303,12188,5077.9903583333335
+tiangolo/fastapi,"Python, Shell, CSS, HTML, JavaScript",73195,6166,25324.51118611111
+jaywcjlove/awesome-mac,"JavaScript, Dockerfile",73010,6158,3363.5197055555554
+ChatGPTNextWeb/ChatGPT-Next-Web,"TypeScript, JavaScript, SCSS, Dockerfile, Shell, Rust",72616,57695,46.523225
+typicode/json-server,"HTML, JavaScript",71872,6925,1619.0857250000001
+oven-sh/bun,"Zig, JavaScript, TypeScript, CSS, Makefile, C, C++, HTML, Shell, Dockerfile",71805,2555,4634.810488888889
+vuejs/awesome-vue,,71445,9442,8688.811791666667
+home-assistant/core,"Python, Shell, Dockerfile, PLSQL, Jinja, JavaScript",69745,28912,1100.4239583333333
+netdata/netdata,"Shell, C, C++, HTML, JavaScript, CSS, Makefile, CMake, Python, POV-Ray SDL",69441,5796,5331.556655555556
+DopplerHQ/awesome-interview-questions,,68877,8759,2765.851903594771
+mermaid-js/mermaid,"JavaScript, Yacc, HTML, Shell, TypeScript, CSS, Vue, Dockerfile",68745,6075,3717.1608305555555
+elastic/elasticsearch,"Shell, Python, Java, HTML, Groovy, Batchfile, Emacs Lisp, FreeMarker, ANTLR, Dockerfile",68536,24344,1204.3133083333335
+supabase/supabase,"JavaScript, CSS, Makefile, TypeScript, PLpgSQL, Shell, Dockerfile, SCSS, Python, MDX",68397,6483,1048.8749583333333
+moby/moby,"Go, Shell, Makefile, C, Assembly, PowerShell, Dockerfile, Python, HCL",68121,18574,1259.879897222222
+microsoft/ML-For-Beginners,"Jupyter Notebook, Python, CSS, HTML, JavaScript, Vue, Dockerfile",68118,13938,652.3803194444445
+rustdesk/rustdesk,"Rust, C++, Shell, HTML, CSS, C, Dockerfile, NSIS, AppleScript, Objective-C",68031,7528,4214.065008333333
+thedaviddias/Front-End-Checklist,,67919,6365,2704.3036083333336
+base-org/node,"Dockerfile, Shell",67658,2300,359.784825
+hakimel/reveal.js,"JavaScript, CSS, HTML, SCSS",67276,16631,745.8357972222223
+pallets/flask,"Python, HTML, CSS, Shell",66991,16058,943.3676222222222
+swiftlang/swift,"Emacs Lisp, CMake, C, C++, Python, Swift, Objective-C++, DTrace, Objective-C, Shell",66705,10284,18623.582933333335
+CompVis/stable-diffusion,"Python, Shell, Jupyter Notebook",66536,9971,902.9195138888889
+nomic-ai/gpt4all,"Python, Shell, CMake, C++, Qt Script, C, QML, CSS, Makefile, JavaScript",66559,7329,1040.4263916666666
+coder/code-server,"TypeScript, HTML, CSS, Dockerfile, Shell, Makefile, Mustache, HCL, JavaScript, Nix",66475,5449,1624.7356194444446
+anuraghazra/github-readme-stats,"JavaScript, Shell",66459,21543,1430.3601833333335
+vitejs/vite,"JavaScript, TypeScript, Vue, HTML, AppleScript, CSS, SCSS, Less, Svelte, Stylus",65960,5877,300.1879333333334
+fighting41love/funNLP,Python,65943,14258,2116.43128250591
+Developer-Y/cs-video-courses,,65925,9023,2058.5321361111114
+MunGell/awesome-for-beginners,,65764,6849,1403.6157527777777
+nestjs/nest,"TypeScript, JavaScript, Shell",65605,7468,806.5631277777777
+redis/redis,"Makefile, Shell, C, C++, Ruby, Tcl, Smarty, Python, JavaScript",65570,23578,11640.485125000001
+bregman-arie/devops-exercises,"Shell, Groovy, Python, HTML, HCL",64781,14310,2565.290058479532
+protocolbuffers/protobuf,"Makefile, Shell, Java, Emacs Lisp, C++, Python, Ruby, C, Objective-C, Swift",64495,15357,7451.290819444444
+josephmisiti/awesome-machine-learning,Python,64344,14513,919.2964303959131
+webpack/webpack,"JavaScript, CSS, CoffeeScript, HTML, WebAssembly, Pug, Less, TypeScript, SCSS",64336,8738,1605.7619666666667
+expressjs/express,"Makefile, JavaScript, Shell",64327,14604,1537.8864638888888
+openai/whisper,Python,64069,7450,0
+2dust/v2rayN,"C#, PowerShell",64039,10880,359.58184166666666
+chartjs/Chart.js,"JavaScript, Shell, TypeScript, HTML",63921,11885,9532.925827777777
+microsoft/playwright,"JavaScript, Shell, TypeScript, HTML, CSS, Batchfile, Objective-C, Makefile, CMake, C++",63779,3452,1438.479388888889
+Anduin2017/HowToCook,Dockerfile,63597,8530,518.3948361111111
+enaqx/awesome-react,,63210,7127,4806.499211111111
+FuelLabs/sway,"Rust, Shell, JavaScript, Dockerfile, LLVM, CSS, RenderScript, Sway",62968,5314,3473.145722222222
+shadcn-ui/ui,"Shell, TypeScript, JavaScript, CSS, MDX",62990,3548,3430.842372222222
+kdn251/interviews,Java,62724,12830,1871.4238164251208
+leonardomso/33-js-concepts,JavaScript,62630,8740,4074.7283903133907
+syncthing/syncthing,"Go, Shell, CSS, JavaScript, HTML, Batchfile, Dockerfile, Ruby, PowerShell, TypeScript",62050,4132,2385.501152777778
+junegunn/fzf,"Makefile, Go, Ruby, Shell, Dockerfile, PowerShell, Vim Script",61809,2345,1255.9595055555556
+ansible/ansible,"Makefile, Python, Shell, PowerShell, Go, Roff, C#, Batchfile, Jinja",61767,23743,179.26215
+twitter/the-algorithm,"Starlark, Java, Python, Dockerfile, Scala, Thrift, Shell, Rust, C, C++",61702,12168,8.11955
+resume/resume.github.com,"Ruby, CSS, JavaScript, HTML",61679,1345,7615.695690104167
+strapi/strapi,"JavaScript, HTML, Shell, Handlebars, TypeScript, MDX",61598,7707,1555.8875583333333
+grafana/grafana,"Shell, Python, JavaScript, Go, HTML, CSS, TypeScript, Makefile, Smarty, Dockerfile",61458,11735,1811.0076722222223
+hoppscotch/hoppscotch,"JavaScript, Vue, Dockerfile, Shell, SCSS, TypeScript, HTML, Handlebars, Rust",61285,4254,563.7802111111112
+binary-husky/gpt_academic,"Python, Dockerfile, JavaScript, CSS, HTML",61316,7647,492.48954999999995
+lydiahallie/javascript-questions,,61265,8715,4147.742358333333
+keras-team/keras,"Python, Shell",61264,19375,2159.857052777778
+ggerganov/llama.cpp,"Makefile, Python, C, C++, Shell, CMake, Dockerfile, Nix, Swift, Cuda",61224,8744,1116.5578166666667
+python/cpython,"Makefile, Python, C, Batchfile, CSS, HTML, Assembly, C++, DTrace, Shell",60865,29375,1778.7168944444445
+reduxjs/redux,"JavaScript, TypeScript, CSS",60626,15288,370.6111472222222
+socketio/socket.io,"JavaScript, TypeScript, Shell",60520,10085,1320.1394944444444
+apache/superset,"Python, CSS, JavaScript, Shell, Mako, HTML, Smarty, Dockerfile, TypeScript, Makefile",60472,13059,4535.885930555555
+ventoy/Ventoy,"C, Shell, Assembly, C++, Roff, Makefile, Dockerfile, HTML, CSS, JavaScript",60308,3940,3577.845697222222
+3b1b/manim,"Python, GLSL",60242,5692,5761.1474194444445
+ByteByteGoHq/system-design-101,,60220,6201,990.7964880952381
+atom/atom,"Shell, CoffeeScript, JavaScript, HTML, Batchfile, Dockerfile, Less, EJS",60060,17395,2539.2042194444443
+kelseyhightower/nocode,Dockerfile,59966,4719,8389.250125
+adam-p/markdown-here,"HTML, JavaScript, CSS, Makefile",59568,11261,2269.596022222222
+apache/echarts,"JavaScript, HTML, TypeScript, Smarty, Shell",59567,19578,893.7807944444444
+tesseract-ocr/tesseract,"C++, C, Shell, Java, Makefile, CMake, M4, Python",59524,9233,3136.6553361111114
+xingshaocheng/architect-awesome,,59445,17814,3408.1703535353536
+lodash/lodash,"JavaScript, Shell, TypeScript",59243,6988,990.2633
+awesomedata/awesome-public-datasets,,59233,9756,2391.0368026004726
+h5bp/Front-end-Developer-Interview-Questions,"JavaScript, CSS, Nunjucks",59227,11033,6938.815169444444
+sdmg15/Best-websites-a-programmer-should-visit,,59200,7487,3380.9322923976606
+xtekky/gpt4free,"Python, Dockerfile, CSS, HTML, JavaScript, Shell",59122,13167,36.64704166666667
+jquery/jquery,"JavaScript, PHP, HTML, CSS, Shell",59046,20621,4852.2085916666665
+angular/angular.js,"JavaScript, HTML, Shell, CSS, BitBake",58902,27549,6568.373041666667
+scikit-learn/scikit-learn,"Python, Shell, C, C++, Makefile, Cython, Starlark, JavaScript, CSS, Meson",58805,25136,8337.648152777778
+d2l-ai/d2l-zh,"Python, HTML, TeX, Shell",58560,10600,0
+FuelLabs/fuel-core,"Rust, Dockerfile, Shell",58309,2725,3968.3681527777776
+swisskyrepo/PayloadsAllTheThings,"PHP, Python, HTML, Shell, Ruby, Jupyter Notebook, JavaScript, XSLT, ASP.NET, Classic ASP",58211,14172,0
+shadowsocks/shadowsocks-windows,"C#, JavaScript",58092,16402,527.0511222222223
+ocornut/imgui,"C, C++, Objective-C, Objective-C++, Shell, GLSL, GDB",57784,9908,2644.1069916666665
+TheAlgorithms/Java,"Java, Dockerfile",57620,18769,3124.856863888889
+openai/openai-cookbook,MDX,57469,9074,1867.6179000000002
+obsproject/obs-studio,"CMake, C, Shell, C++, Objective-C, Objective-C++, Python, Lua, Batchfile, Swift",57217,7716,16149.949536111111
+bradtraversy/design-resources-for-developers,,57124,11317,39.452959976105134
+chrislgarry/Apollo-11,Assembly,57069,6835,2066.8158027777777
+Eugeny/tabby,"CSS, JavaScript, TypeScript, Batchfile, Lua, Shell, C++, C, NSIS, Pug",56982,3294,3738.9347555555555
+fffaraz/awesome-cpp,,56973,7697,6343.6002499999995
+sindresorhus/awesome-nodejs,,56941,5803,1162.2037861111112
+binhnguyennus/awesome-scalability,,56723,5857,0
+h5bp/html5-boilerplate,"HTML, JavaScript",56218,12181,869.2089361111111
+spring-projects/spring-framework,"Groovy, Java, HTML, AspectJ, Ruby, Smarty, CSS, JavaScript, XSLT, Python",55645,37774,12698.841519444444
+caddyserver/caddy,"Go, Shell, HTML",55523,3912,2102.5240361111114
+prakhar1989/awesome-courses,,55363,8123,2817.8937891737896
+rails/rails,"Ruby, HTML, CSS, JavaScript, Yacc, Shell, Dockerfile, SCSS",55286,21415,964.0438111111112
+danielmiessler/SecLists,"PHP, Shell, HTML, Perl, Python, Hack, Java, ColdFusion, ASP.NET, Classic ASP",55184,23511,3590.1511944444446
+gatsbyjs/gatsby,"JavaScript, CSS, Dockerfile, TypeScript, HTML, Shell, Python, EJS, Less, SCSS",55137,10330,3089.8322555555555
+microsoft/generative-ai-for-beginners,"JavaScript, HTML, Shell, Jupyter Notebook, Python, TypeScript",54882,28143,481.20478055555554
+abi/screenshot-to-code,"JavaScript, HTML, TypeScript, CSS, Python, Shell, Dockerfile",54536,6647,1099.3328638888888
+alacritty/alacritty,"Rust, GLSL, Shell, Makefile",54520,2960,6885.786619444444
+meta-llama/llama,"Python, Shell",54151,9317,2818.6266111111113
+azl397985856/leetcode,"JavaScript, Python, Ruby",54131,9447,1239.9831888888891
+facebook/docusaurus,"JavaScript, CSS, TypeScript, EJS",54113,8109,3405.7773166666666
+ElemeFE/element,"Makefile, Vue, Shell, JavaScript, SCSS",54041,14625,139.0475138888889
+scutan90/DeepLearning-500-questions,"JavaScript, HTML",53718,15766,1591.8720679012345
+prometheus/prometheus,"Makefile, Go, HTML, CSS, JavaScript, Shell, Lex, Dockerfile, TypeScript, Yacc",53717,8902,10598.611269444444
+nuxt/nuxt,"JavaScript, Vue, Shell, TypeScript, Dockerfile, HTML",53040,4868,310.9722361111111
+Alvin9999/new-pac,,52981,9167,7613.970733333334
+localstack/localstack,"Makefile, Python, JavaScript, Java, Shell, C#, Dockerfile, Ruby, Batchfile, HCL",52939,3848,4103.770411111112
+zylon-ai/private-gpt,"Python, Makefile, MDX",52867,7115,3476.9149166666666
+ryanoasis/nerd-fonts,"Python, Shell, CSS, PowerShell, Dockerfile",52632,3592,8773.60505
+sherlock-project/sherlock,"Python, Dockerfile",52564,6393,3156.406883333333
+remix-run/react-router,"JavaScript, TypeScript, HTML, CSS",52418,10179,235.00483333333335
+ageitgey/face_recognition,"Makefile, Python, Dockerfile",52344,13356,300.34980277777777
+louislam/uptime-kuma,"HTML, JavaScript, Vue, SCSS, TypeScript, PowerShell, Shell, Dockerfile, Go, C#",52287,4706,825.1295694444445
+PKUFlyingPig/cs-self-learning,HTML,52280,6424,872.4712875816994
+Solido/awesome-flutter,Dart,52126,6604,0
+necolas/normalize.css,CSS,52096,10693,1674.059763888889
+nektos/act,"Shell, Makefile, Go, JavaScript",51989,1304,2823.737936111111
+psf/requests,"Makefile, Python",51729,9256,822.8968972222223
+lencx/ChatGPT,"Rust, HTML, TypeScript, JavaScript, CSS",51640,5789,130.43601666666666
+scrapy/scrapy,"Shell, Python, HTML, Roff",51624,10413,7473.172847222222
+CorentinJ/Real-Time-Voice-Cloning,Python,51477,8635,1601.35465
+PlexPt/awesome-chatgpt-prompts-zh,,51367,13495,80.77780303030302
+gpt-engineer-org/gpt-engineer,"Python, Makefile, Dockerfile, Shell, HTML",51336,6677,178.46663333333333
+labmlai/annotated_deep_learning_paper_implementations,"Python, Makefile, Jupyter Notebook",51303,5312,2869.359530555556
+rust-lang/rustlings,"Rust, Shell",51078,9858,7481.880730555556
+Semantic-Org/Semantic-UI,"HTML, JavaScript, Less",51061,4955,635.0906638888889
+git/git,"Makefile, C, Shell, C++, Perl, Emacs Lisp, Python, Go, Tcl, JavaScript",50946,25329,0
+ionic-team/ionic-framework,"JavaScript, HTML, CSS, TypeScript, Shell, Java, SCSS, Vue, Dockerfile",50657,13515,739.7331916666667
+OpenInterpreter/open-interpreter,"Python, Shell, PowerShell, Dockerfile",50654,4416,541.3499777777778
+AppFlowy-IO/AppFlowy,"Makefile, Kotlin, Ruby, Swift, Objective-C, Dart, C, HTML, Rust, Shell",50312,3329,5843.815375
+google/material-design-icons,,50130,9590,20071.672655555558
+deepfakes/faceswap,"Python, NSIS, Shell",49828,12998,263.88556944444446
+wasabeef/awesome-android-ui,,49722,10238,12559.292566425122
+google/guava,"Java, CSS, Shell, JavaScript, HTML",49683,10821,1743.6105583333333
+soimort/you-get,"Makefile, Python, Shell",49552,9331,0
+tldr-pages/tldr,"Shell, JavaScript, Python, CSS, Markdown",49272,4057,3274.3698249999998
+juliangarnier/anime,JavaScript,49186,3653,833.557238888889
+xai-org/grok-1,Python,49149,8312,28.344333333333335
+NationalSecurityAgency/ghidra,"Java, C, HTML, CSS, Shell, Python, Haskell, Makefile, C++, Yacc",49151,5659,3757.6780694444446
+traefik/traefik,"Go, Makefile, Shell, JavaScript, HTML, Dockerfile, Vue, SCSS",49069,4926,4039.6710166666667
+jgthms/bulma,"Shell, Sass, SCSS, JavaScript, CSS",48834,3920,1983.2487611111112
+youngyangyang04/leetcode-master,Shell,48788,11054,1180.3397037037037
+prettier/prettier,"JavaScript, TypeScript, CSS, HTML, Vue, Handlebars, Less, SCSS, Shell, MDX",48677,4203,759.3984555555555
+commaai/openpilot,"C, Python, Shell, C++, Dockerfile, HTML, QML, Kaitai Struct, Cython, JavaScript",48636,8810,6703.906394444444
+jekyll/jekyll,"Ruby, HTML, CSS, Shell, CoffeeScript, Gherkin, JavaScript, Dockerfile, SCSS, Hack",48600,9918,10461.691583333333
+ultralytics/yolov5,"Dockerfile, Shell, Python",48362,15866,1015.9845750000001
+JetBrains/kotlin,"Kotlin, Java, Dockerfile, Swift, C++, C, Shell, Batchfile, CSS, JavaScript",48286,5662,0
+Textualize/rich,"Python, Makefile, Batchfile",48129,1689,234.12883333333335
+jesseduffield/lazygit,"Go, Shell, Dockerfile, Makefile",48052,1725,2499.223344444444
+jgraph/drawio-desktop,"JavaScript, Shell",47929,4825,6040.209236111111
+moment/moment,"JavaScript, Shell, TypeScript",47878,7042,326.5976861111111
+iamadamdev/bypass-paywalls-chrome,"JavaScript, HTML, Shell",47836,3450,278.64083055555557
+ReactiveX/RxJava,"Shell, Java, CSS",47768,7600,5846.453155555555
+DefinitelyTyped/DefinitelyTyped,"TypeScript, JavaScript, Shell",47670,29923,3133.7353444444443
+sharkdp/bat,"Rust, Shell, Batchfile, Python",47656,1184,691.9194333333334
+pi-hole/pi-hole,"Shell, Python, Roff, Dockerfile",47441,2621,870.7644944444445
+NARKOZ/hacker-scripts,"Ruby, Shell, Python, PowerShell, PHP, CoffeeScript, Perl, R, Go, JavaScript",47399,6660,4677.158339002268
+chinese-poetry/chinese-poetry,"Python, JavaScript",47376,9517,2113.101626092385
+mozilla/pdf.js,"JavaScript, HTML, CSS, TypeScript, Fluent",47168,9819,1447.8543222222222
+golang-standards/project-layout,Makefile,47148,4957,5512.441382575757
+FiloSottile/mkcert,Go,46896,2431,601.9268805555556
+etcd-io/etcd,"Shell, Go, Makefile, Dockerfile, Jsonnet, Procfile",46803,9646,1650.5552916666666
+ethereum/go-ethereum,"Go, Java, Shell, C, Makefile, M4, JavaScript, Assembly, NSIS, HTML",46669,19654,629.7937333333333
+tiimgreen/github-cheat-sheet,,46565,5259,1229.116975308642
+cypress-io/cypress,"JavaScript, CoffeeScript, CSS, HTML, TypeScript, Shell, SCSS, Vue, EJS, Svelte",46421,3135,6846.819130555556
+algorithm-visualizer/algorithm-visualizer,"JavaScript, HTML, C++, Java, SCSS",46409,7274,1517.5537087087087
+mastodon/mastodon,"Ruby, JavaScript, CSS, HTML, Shell, Dockerfile, SCSS, Haml, Procfile, Procfile",46343,6799,1475.5821777777778
+vsouza/awesome-ios,Swift,46337,6812,424.35034722222224
+serverless/serverless,"JavaScript, Python, Java, TypeScript, Ruby",46304,5692,2150.545311111111
+iperov/DeepFaceLab,Python,46246,10372,415.2346416666667
+iamkun/dayjs,JavaScript,46223,2264,2224.8161944444446
+TryGhost/Ghost,"JavaScript, HTML, XSLT, CSS, Handlebars, TypeScript, MDX, Nix, Shell",46216,10102,1794.7465194444444
+BurntSushi/ripgrep,"Rust, Shell, Python, Ruby, Roff",46189,1923,1719.8947722222222
+minimaxir/big-list-of-naughty-strings,"Python, Shell, Go, Makefile",45999,2127,3046.4016840277777
+dair-ai/Prompt-Engineering-Guide,"Jupyter Notebook, CSS, TypeScript, JavaScript, MDX",45942,4414,1678.7001944444446
+charlax/professional-programming,"Python, HTML",45855,3656,156.7530324074074
+vuejs/core,"JavaScript, TypeScript, HTML, CSS, Vue",45639,8003,785.4803055555556
+marktext/marktext,"JavaScript, HTML, Vue, CSS, NSIS, EJS",45531,3396,476.53825555555557
+topjohnwu/Magisk,"Makefile, Shell, C++, Python, Java, Kotlin, AIDL, C, Rust",45504,11393,1594.9219222222223
+square/okhttp,"Shell, Java, Kotlin",45479,9117,4549.148491666667
+facebookresearch/segment-anything,"Python, Jupyter Notebook, Shell",45419,5368,291.8407388888889
+minio/minio,"Go, Shell, Makefile, Dockerfile, Mustache, Smarty",45416,5302,883.6942972222223
+ngosang/trackerslist,,45387,6562,515.0687916666666
+ziishaned/learn-regex,,45294,6239,1857.604388888889
+meilisearch/meilisearch,"Rust, Dockerfile, Shell",45055,1693,3691.543638888889
+v2ray/v2ray-core,"Go, Shell, Assembly, Starlark, Dockerfile",44985,8948,1807.8164416666668
+rclone/rclone,"Makefile, Shell, Go, Python, HTML, Batchfile, Dockerfile, JavaScript, C, PHP",44973,4026,6033.010566666667
+JuliaLang/julia,"Shell, Makefile, Julia, C++, Scheme, C, Clojure, Objective-C, Assembly, GDB",44965,5424,6930.752738888888
+justjavac/awesome-wechat-weapp,,44898,8593,0
+karan/Projects,,44565,10520,2378.11069023569
+wagoodman/dive,"Go, Makefile, Dockerfile",44538,1694,641.4465222222223
+typescript-cheatsheets/react,"JavaScript, CSS, Shell",44496,4046,4904.167886111111
+gogs/gogs,"Go, Shell, JavaScript, Batchfile, Dockerfile, Less, Procfile",44493,4831,1664.6782583333334
+gorhill/uBlock,"HTML, JavaScript, CSS, Shell, Python, WebAssembly, Makefile",44466,2986,3319.636861111111
+rust-unofficial/awesome-rust,Rust,44443,2624,2981.507013888889
+pmndrs/zustand,"JavaScript, TypeScript",44434,1357,2372.6307888888887
+FuelLabs/fuels-rs,"Rust, Shell, Sway",44385,1319,1107.5128527777779
+FuelLabs/fuels-ts,"TypeScript, Shell, JavaScript, Handlebars, Sway, Vue, CSS, HTML",44383,1315,2255.3515305555557
+romkatv/powerlevel10k,"Shell, Makefile, C++",44342,2116,114.50252222222223
+laurent22/joplin,"Batchfile, Shell, JavaScript, Java, Objective-C, HTML, CSS, TypeScript, Ruby, Handlebars",44161,4778,1442.0708333333334
+agalwood/Motrix,"JavaScript, HTML, Vue, SCSS, EJS",44142,4451,1141.7574666666667
+meteor/meteor,"HTML, JavaScript, CSS, Shell, CoffeeScript, PowerShell, Batchfile, Ruby, Java, TypeScript",44134,5160,2447.5061083333335
+android/architecture-samples,Kotlin,44077,11580,16697.247888888887
+PowerShell/PowerShell,"C#, PowerShell, XSLT, Shell, Roff, Dockerfile, Batchfile, HTML, Rich Text Format",43995,7123,248.12352222222225
+withastro/astro,"JavaScript, TypeScript, Svelte, Astro, Shell, CSS, Vue, Dockerfile, Roff, MDX",43992,2288,964.9280749999999
+Avik-Jain/100-Days-Of-ML-Code,,43892,10378,0
+kamranahmedse/design-patterns-for-humans,,43873,5137,2137.706235224586
+jestjs/jest,"JavaScript, CSS, TypeScript, Shell, Handlebars, Prolog",43850,6393,7130.66925
+ColorlibHQ/AdminLTE,"JavaScript, HTML, SCSS, Astro, MDX, TypeScript",43743,18166,333.7124222222222
+x64dbg/x64dbg,"Shell, C++, C, Assembly, QMake, Batchfile, CSS",43690,2340,1876.714425
+FFmpeg/FFmpeg,"C, Makefile, C++, Shell, Assembly, Objective-C, Perl, Roff, Cuda, Awk",43653,11862,0
+nocodb/nocodb,"JavaScript, Shell, Dockerfile, TypeScript, CSS, Vue, SCSS, PLpgSQL, TSQL, Smarty",43616,3030,2477.243697222222
+firstcontributions/first-contributions,,43548,75442,2100.6575583333333
+Z4nzu/hackingtool,"Shell, Python, Dockerfile",43462,4785,34.269533333333335
+aymericdamien/TensorFlow-Examples,"Python, Jupyter Notebook",43306,14978,796.4042471819645
+parcel-bundler/parcel,"JavaScript, CSS, HTML, TypeScript, CoffeeScript, Rust, GLSL, Vue, Elm, Kotlin",43276,2256,913.1776972222223
+ruanyf/weekly,,43126,2695,4678.436613888888
+astaxie/build-web-application-with-golang,"Go, Groovy, Shell, Python",43064,10652,1146.6930694444443
+babel/babel,"JavaScript, Makefile, Shell, HTML, TypeScript, Batchfile",43046,5597,53.26411944444444
+pixijs/pixijs,"JavaScript, GLSL, TypeScript, Shell, WGSL",43030,4743,950.4373527777778
+go-gitea/gitea,"Makefile, Go, Shell, Roff, Dockerfile, JavaScript, Vue, Less, Handlebars, Jsonnet",43033,5313,8898.611747222221
+vercel/hyper,"JavaScript, HTML, Shell, Batchfile, TypeScript, NSIS",42936,3471,3763.380916666667
+starship/starship,"Rust, Shell, PowerShell, Nu, Xonsh, Lua, HTML, Elvish",42925,1843,1481.9415416666666
+poteto/hiring-without-whiteboards,JavaScript,42901,3394,0
+square/retrofit,"Java, CSS, HTML, Kotlin, JavaScript",42818,7281,1771.7288861111113
+pandas-dev/pandas,"Python, Shell, HTML, C, Smarty, CSS, Dockerfile, XSLT, Cython, Meson",42616,17572,2351.610830555556
+n8n-io/n8n,"Shell, Dockerfile, TypeScript, JavaScript, HTML, Vue, Batchfile, SCSS, Handlebars, CSS",42371,5491,1491.3892805555556
+google/zx,"JavaScript, TypeScript",42298,1074,357.79927499999997
+slab/quill,"JavaScript, Shell, Stylus, TypeScript, SCSS, CSS, MDX, HTML",42287,3311,4115.884572222222
+appwrite/appwrite,"Dockerfile, Shell, PHP, TypeScript",42278,3804,4621.791716666667
+huginn/huginn,"Shell, Ruby, HTML, Makefile, Dockerfile, SCSS, Procfile, JavaScript",42227,3705,5099.7593916666665
+isocpp/CppCoreGuidelines,"Makefile, Python, HTML, CSS",41973,5402,1333.081936111111
+jakevdp/PythonDataScienceHandbook,"Jupyter Notebook, Python, Makefile, CSS, HTML, Less",41958,17685,757.2786366959065
+Asabeneh/30-Days-Of-JavaScript,"JavaScript, HTML",41709,9680,322.56377192982455
+k88hudson/git-flight-rules,,41679,3188,4549.108227272727
+hashicorp/terraform,"Makefile, Go, Shell, Dockerfile, HCL, MDX",41660,9408,1691.2805083333333
+dypsilon/frontend-dev-bookmarks,,41606,5090,5120.984525745257
+type-challenges/type-challenges,"TypeScript, Shell, HTML, CSS, JavaScript",41460,4496,2917.627647222222
+geekan/MetaGPT,"Python, Dockerfile, Shell, JavaScript, TypeScript",41439,4942,925.4365416666666
+yarnpkg/yarn,"JavaScript, Shell, Batchfile, PowerShell, Groovy",41370,2723,2055.412311111111
+nlohmann/json,"C++, Makefile, CMake, HTML, Meson, Cuda, Python, Jinja, Starlark, Swift",41297,6575,1863.8987083333332
+brillout/awesome-react-components,,41216,3435,2738.670902777778
+grpc/grpc,"C++, C, C#, JavaScript, Objective-C, PHP, Python, Shell, Ruby, Batchfile",41165,10426,3592.2518972222224
+dkhamsing/open-source-ios-apps,,41135,5403,734.2727000000001
+discourse/discourse,"Ruby, HTML, JavaScript, Shell, Handlebars, SCSS, Mustache, CSS",41111,8198,0
+comfyanonymous/ComfyUI,"Python, HTML, JavaScript, CSS, Jupyter Notebook, Batchfile",41139,4378,3441.1657638888887
+Unitech/pm2,"JavaScript, Shell, Smarty, Dockerfile, Python",41031,2586,980.83745
+streamich/react-use,"JavaScript, TypeScript",40960,3104,1826.3568194444445
+bailicangdu/vue2-elm,"JavaScript, HTML, Vue, SCSS",40872,12458,9056.013133333334
+TanStack/query,"JavaScript, TypeScript, Svelte, Vue, HTML, CSS",40817,2749,219.38177222222222
+Alamofire/Alamofire,"Swift, Ruby",40784,7529,146.55750277777778
+yangshun/front-end-interview-handbook,"JavaScript, CSS, MDX",40785,5684,4612.034766922095
+akullpp/awesome-java,,40666,7300,1560.478836111111
+Leaflet/Leaflet,"JavaScript, HTML, CSS, Handlebars",40519,5772,2994.7349194444446
+react-hook-form/react-hook-form,"TypeScript, JavaScript, HTML, CSS",40374,2028,184.7575361111111
+serhii-londar/open-source-mac-os-apps,,40336,2325,1780.2860444444443
+GitSquared/edex-ui,"JavaScript, CSS, HTML",40291,2528,520.1685583333333
+styled-components/styled-components,"JavaScript, HTML, CSS, TypeScript",40243,2482,1108.4906166666667
+apache/dubbo,"Java, Shell, Batchfile, Lex, Mustache, JavaScript, Dockerfile",40224,26345,22532.094505555557
+PaddlePaddle/PaddleOCR,"Python, Makefile, C++, Shell, CMake, Dockerfile, Java, Cython, C, Cuda",40248,7452,327.3056416666667
+nwjs/nw.js,"C++, JavaScript, Objective-C++, Objective-C, C, HTML, Python, Smarty, CSS, Shell",40214,3882,3521.7315722222224
+Homebrew/brew,"Shell, Ruby, PostScript, HTML, Roff, Swift, Dockerfile, Rich Text Format, CMake",40111,9408,420.1131388888889
+skylot/jadx,"Java, Smali, Lex, Kotlin",40019,4733,12575.874302777778
+THUDM/ChatGLM-6B,"Python, Shell",39948,5151,277.37148055555554
+WerWolv/ImHex,"CMake, C++, GLSL, Objective-C, C#, GDB, Python, C",39987,1757,3443.4238638888887
+faif/python-patterns,"Python, Makefile, Shell",39857,6889,2800.2732273391816
+kelseyhightower/kubernetes-the-hard-way,,39730,13641,1816.4809416666665
+dcloudio/uni-app,"JavaScript, Vue, CSS, TypeScript, HTML, SCSS",39639,3602,1606.0597027777776
+jgraph/drawio,"JavaScript, HTML, Java, CSS",39530,7398,7159.217991666666
+alist-org/alist,"Go, Shell, Makefile, Dockerfile",39522,5133,930.6734
+alex/what-happens-when,,39481,5297,3343.791836734694
+zed-industries/zed,"Rust, JavaScript, C, Metal, Shell, Scheme, Dockerfile, Procfile, Swift, Objective-C",39425,2050,3839.619341666667
+vuetifyjs/vuetify,"JavaScript, Vue, HTML, TypeScript, Shell, Sass, SCSS",39331,6933,105.748125
+RocketChat/Rocket.Chat,"JavaScript, CSS, HTML, Shell, Batchfile, Dockerfile, Smarty, TypeScript, Handlebars, EJS",39298,10074,2694.694875
+nolimits4web/swiper,"HTML, JavaScript, Python, Vue, Less, SCSS",39095,9747,1106.7794083333333
+microsoft/monaco-editor,"JavaScript, HTML, CSS, Shell, TypeScript, SCSS",39054,3513,12506.169055555556
+Dogfalo/materialize,"CSS, HTML, JavaScript",38869,4740,1292.6137305555555
+apache/spark,"Scala, Java, Shell, JavaScript, Python, Makefile, R, C, CSS, Batchfile",38847,28064,0
+fastlane/fastlane,"Ruby, HTML, Objective-C, Shell, Java, Swift, JavaScript, Lua, C",38845,5642,1315.1760777777777
+hexojs/hexo,"JavaScript, Shell, TypeScript",38834,4755,783.7049444444444
+immich-app/immich,"HTML, Makefile, Shell, JavaScript, Dockerfile, TypeScript, Ruby, Kotlin, Swift, Objective-C",38831,1829,1213.0576833333334
+apachecn/ailearning,"Python, Jupyter Notebook, Shell, HTML, CSS, Dockerfile, JavaScript",38610,11363,8005.407013888889
+jeecgboot/JeecgBoot,"Java, FreeMarker, Dockerfile, TypeScript, JavaScript, Less, Vue",38478,14432,195.24941666666666
+LeCoupa/awesome-cheatsheets,"JavaScript, Shell, Python, PHP, HTML, CSS",38466,6024,2687.411398989899
+dbeaver/dbeaver,"Batchfile, Java, CSS, HTML, Shell, C++, XSLT, ANTLR",38368,3322,1927.6747833333332
+hpcaitech/ColossalAI,"Python, C++, C, Cuda, Dockerfile, Shell, HTML",38305,4303,2511.9890388888884
+Kong/kong,"Shell, Lua, Makefile, Perl, CSS, Dockerfile, Python, Starlark",38297,4750,3308.296511111111
+oobabooga/text-generation-webui,"Python, CSS, JavaScript, Dockerfile, Shell, Batchfile, Jupyter Notebook",38204,5075,505.4671333333333
+lyswhut/lx-music-desktop,"JavaScript, Vue, Less, HTML, TypeScript",38085,5756,765.1526444444445
+prisma/prisma,"TypeScript, JavaScript, Shell, TSQL, Dockerfile, Batchfile",38042,1472,3784.485111111111
+Light-City/CPlusPlusThings,"C++, C, Starlark",38022,8367,3788.996861111111
+lllyasviel/Fooocus,"Python, Jupyter Notebook, CSS, JavaScript, Dockerfile, Shell",37991,5057,2269.025308333333
+localsend/localsend,"Kotlin, Swift, Objective-C, Dart, CMake, C++, C, HTML, Ruby, Shell",37994,1964,1126.111975
+sudheerj/reactjs-interview-questions,"HTML, CSS, JavaScript",37881,9035,1133.665552631579
+chubin/cheat.sh,"Python, Shell, HTML, CSS, Dockerfile, Go, Vim Script",37807,1757,2972.2437805555555
+psf/black,"Python, Dockerfile, Jupyter Notebook, Vim Script",37790,2394,797.1121638888889
+floodsung/Deep-Learning-Papers-Reading-Roadmap,Python,37711,7298,8317.46561111111
+pyenv/pyenv,"Makefile, Shell, C, Roff, Python, Dockerfile, Vim Script",37705,2969,923.1144361111112
+evanw/esbuild,"Makefile, JavaScript, Go, HTML, TypeScript, Shell, CSS",37618,1107,1918.9507055555555
+impress/impress.js,"CSS, HTML, JavaScript",37575,6676,5455.198941666667
+php/php-src,"JavaScript, C, Makefile, Shell, PHP, DTrace, C++, Awk, HTML, GAP",37567,7688,998.4408666666667
+DovAmir/awesome-design-patterns,,37566,2765,906.44375
+acmesh-official/acme.sh,"Shell, Dockerfile",37566,4831,1982.6995277777778
+bannedbook/fanqiang,"Batchfile, JavaScript, Python, Shell, Kotlin, Java, Perl, HTML, AIDL",37551,7202,8914.279780555556
+getsentry/sentry,"Python, JavaScript, HTML, Makefile, Lua, Shell, Ruby, TypeScript, Dockerfile, Less",37507,4034,4166.758172222222
+videojs/video.js,"JavaScript, CSS, HTML, SCSS",37503,7399,12267.381816666666
+Stability-AI/stablediffusion,Python,37462,4835,343.2082004830918
+google-research/bert,"Python, Jupyter Notebook",37443,9535,119.51181944444444
+PhilJay/MPAndroidChart,Java,37412,9000,843.7463722222222
+tabler/tabler,"HTML, JavaScript, Ruby, SCSS, Dockerfile",37361,3889,7615.771633333333
+metabase/metabase,"JavaScript, Clojure, HTML, CSS, Emacs Lisp, Shell, Dockerfile, Mustache, TypeScript, MDX",37270,4945,4765.289738888889
+wg/wrk,"Makefile, Lua, C, C++",37171,2908,1331.677886111111
+iina/iina,"Ruby, Swift, Objective-C, JavaScript, HTML, Rich Text Format, Shell",37072,2530,3428.592058333333
+chakra-ui/chakra-ui,"JavaScript, TypeScript, Shell, MDX, Handlebars, HTML, CSS",37052,3183,682.3070722222222
+google/styleguide,"HTML, C, Python, Emacs Lisp, JavaScript, CSS, XSLT, SCSS, Vim Script",36918,13276,13635.111141666666
+Asabeneh/30-Days-Of-Python,"Python, CSS, HTML, Procfile",37023,7203,2993.0053626543213
+LAION-AI/Open-Assistant,"Python, Mako, Shell, CSS, JavaScript, TypeScript, HTML, Dockerfile",36839,3210,636.2311249999999
+spf13/cobra,"Go, Makefile",36761,2803,9514.266213888888
+FreeCodeCampChina/freecodecamp.cn,"JavaScript, CSS, HTML",36732,1364,502.40374444444444
+phaserjs/phaser,"JavaScript, GLSL, TypeScript",36636,7065,384.4557222222222
+GokuMohandas/Made-With-ML,"Jupyter Notebook, Makefile, Shell, Python",36588,5828,231.29724206349206
+freefq/free,,36561,5780,1931.857886111111
+QSCTech/zju-icicles,"HTML, C, Python, TeX, Assembly, Verilog, Batchfile, Makefile, Lex, Yacc",36542,9371,2301.6071818996415
+pingcap/tidb,"Makefile, Go, Shell, Dockerfile, Ragel, HTML, TypeScript, JavaScript, Yacc, Jsonnet",36525,5742,4332.844658333333
+preactjs/preact,"JavaScript, TypeScript, HTML",36355,1934,450.82170833333333
+0voice/interview_internal_reference,Python,36343,9414,321.9985802469136
+eugenp/tutorials,"Java, HTML, XSLT, CSS, Python, Shell, JavaScript, RAML, FreeMarker, PLpgSQL",36279,54394,4283.4094888888885
+dylanaraps/pure-bash-bible,Shell,36272,3253,2344.3800420875423
+langgenius/dify,"Python, PHP, JavaScript, Dockerfile, Shell, Mako, TypeScript, CSS, SCSS, MDX",36330,4909,162.07327500000002
+opentofu/manifesto,"HTML, CSS, JavaScript",36241,1105,105.40866161616162
+sickcodes/Docker-OSX,"Dockerfile, Shell, Mustache, Python",36107,1781,1538.578238888889
+odoo/odoo,"Python, XSLT, HTML, CSS, JavaScript, Shell, NSIS, SCSS, Sass, Vim Script",36097,23456,7088.264641666667
+ant-design/ant-design-pro,"JavaScript, TypeScript, Less, Shell",36076,8119,653.8122222222222
+pocketbase/pocketbase,"Go, HTML, Svelte, JavaScript, SCSS, Makefile, CSS",36065,1615,885.495986111111
+1c7/chinese-independent-developer,,36067,3030,783.1794388888889
+go-gorm/gorm,"Go, Shell",36040,3865,687.0880527777779
+cli/cli,"Go, Makefile, Shell, Batchfile, PowerShell",36035,5403,1042.9691472222223
+byoungd/English-level-up-tips,HTML,35960,4034,3951.1954087301588
+coreybutler/nvm-windows,"Inno Setup, Go, Batchfile, VBScript, JavaScript",35870,3241,9438.004769444446
+gto76/python-cheatsheet,"HTML, JavaScript, CSS, Python",35785,6406,2023.7839359698683
+google/leveldb,"C++, C, CMake",35699,7720,2628.0897694444443
+AobingJava/JavaFamily,,35683,7799,3717.1203425925924
+lm-sys/FastChat,"Python, Shell, Dockerfile, Jupyter Notebook",35596,4378,364.9248305555555
+open-guides/og-aws,Shell,35546,3846,2521.0428160919537
+vim/vim,"Makefile, NSIS, Shell, C, Awk, Perl, Batchfile, PostScript, Smalltalk, Emacs Lisp",35544,5325,1634.0288722222224
+XingangPan/DragGAN,"Python, Cuda, C++, Shell, Batchfile, Dockerfile",35541,3419,359.77341787439616
+koalaman/shellcheck,"Haskell, Shell, Dockerfile",35526,1739,1600.7989333333335
+vlang/v,"Makefile, Batchfile, Dockerfile, C, V, HTML, JavaScript, Shell, CSS, Go",35520,2145,1985.2659527777778
+lerna/lerna,"JavaScript, Shell, Batchfile, TypeScript, CSS",35514,2241,4947.1495583333335
+satwikkansal/wtfpython,Python,35479,2645,2359.847111111111
+ClickHouse/ClickHouse,"CMake, Shell, C++, Python, Perl, HTML, CSS, C, Assembly, Dockerfile",35398,6606,9695.817536111112
+mingrammer/diagrams,"Shell, Python, JavaScript, CSS, Dockerfile",35398,2290,1664.0442444444445
+toeverything/AFFiNE,"JavaScript, TypeScript, CSS, Shell, Rust, HTML, Dockerfile, NSIS",35399,2335,833.6818166666667
+istio/istio,"Shell, Python, Go, Makefile, Smarty, Dockerfile, Java, CSS, JavaScript, HTML",35370,7632,2281.12515
+exacity/deeplearningbook-chinese,"TeX, Makefile, Python, Shell",35359,9101,736.4791472222223
+apache/airflow,"Python, JavaScript, CSS, HTML, Shell, Mako, Jupyter Notebook, Dockerfile, HCL, TypeScript",35293,13782,2325.8117583333333
+jesseduffield/lazydocker,"Dockerfile, Go, Shell",35230,1146,7019.516013888889
+bigskysoftware/htmx,"HTML, JavaScript, CSS, Ruby, Shell, TypeScript",35205,1168,1301.773813888889
+mitmproxy/mitmproxy,"CSS, HTML, Python, Shell, JavaScript, PowerShell, Dockerfile, Kaitai Struct, Less, TypeScript",35181,3946,2822.610919444445
+bradtraversy/50projects50days,"HTML, JavaScript, CSS",35159,8803,0
+alvarotrigo/fullPage.js,"CSS, HTML, JavaScript",35072,7297,1236.71505
+NervJS/taro,"JavaScript, HTML, CSS, TypeScript, Vue, SCSS, Less, Sass, Stylus, Shell",35077,4746,773.7027277777777
+TencentARC/GFPGAN,Python,35062,5805,499.43335
+alibaba/arthas,"Java, Shell, Batchfile, JavaScript, CSS, HTML, Dockerfile, Roff, Groovy, ActionScript",35050,7380,841.0015694444444
+koajs/koa,JavaScript,35004,3222,703.9073916666666
+geekxh/hello-algorithm,Java,34903,6455,289.6145746527778
+shadowsocks/shadowsocks-android,"Python, HTML, Makefile, Perl, Shell, Kotlin, AIDL",34842,11576,135.50035833333334
+dotnet/aspnetcore,"Batchfile, Shell, Dockerfile, C#, PowerShell, Python, Makefile, Roff, C++, C",34805,9834,5767.639125000001
+curl/curl,"C, CMake, Shell, Perl, Makefile, Python, Batchfile, DIGITAL Command Language, Emacs Lisp, M4",34794,6250,410.40146944444444
+airbnb/lottie-android,"Java, Kotlin, Shell, JavaScript",34786,5385,1405.2506638888888
+nativefier/nativefier,"JavaScript, CSS, HTML, Shell, Dockerfile, TypeScript",34763,2185,3204.6492722222224
+sahat/hackathon-starter,"JavaScript, Dockerfile, SCSS, Pug, HTML",34759,8145,131.38392222222222
+SheetJS/sheetjs,,34728,7990,25023.872244444443
+dani-garcia/vaultwarden,"Rust, Shell, Makefile, Python, Handlebars, Jinja, HCL",34716,1687,534.3232444444444
+lobehub/lobe-chat,"JavaScript, TypeScript, Dockerfile, CSS",34732,8161,416.4430027777778
+denysdovhan/wtfjs,"JavaScript, Shell",34590,2540,7784.395141782407
+chenfei-wu/TaskMatrix,"Python, Dockerfile, HTML",34530,3329,128.8492361111111
+nodejs/node-v0.x-archive,,34474,7320,1511.8193999999999
+bumptech/glide,"Java, Shell, Kotlin, CSS",34461,6107,2084.4756666666667
+karpathy/nanoGPT,Python,34464,5298,385.8199691358025
+babysor/MockingBird,"Python, Dockerfile, Shell, Cython",34446,5143,405.05810833333334
+formulahendry/955.WLB,,34406,1745,2483.5986875000003
+unknwon/the-way-to-go_ZH_CN,"Go, Makefile, Shell, HTML, CSS, JavaScript, Batchfile",34314,8598,0
+carbon-app/carbon,"JavaScript, Shell",34295,1904,1098.6356
+jondot/awesome-react-native,"Makefile, CSS, JavaScript",34294,3973,2591.012126984127
+freeCodeCamp/devdocs,"Ruby, HTML, CSS, JavaScript, Dockerfile, SCSS, Procfile",34265,2288,1595.1757611111111
+tldraw/tldraw,"TypeScript, JavaScript, CSS, HTML, Shell, MDX, Dockerfile",34256,2056,2099.828841666667
+openai/gym,"Shell, Python, Dockerfile",34194,8583,4414.566613888889
+aria2/aria2,"Shell, C++, C, Makefile, M4, Dockerfile",34151,3447,2328.7715777777776
+date-fns/date-fns,"JavaScript, Shell, TypeScript",34110,1760,3140.354894444444
+naptha/tesseract.js,"JavaScript, HTML",34112,2154,10767.647480555555
+QuivrHQ/quivr,"Python, Dockerfile, CSS, JavaScript, TypeScript, PLpgSQL, Makefile, SCSS, Shell, TeX",34042,3341,302.99822500000005
+BVLC/caffe,"CMake, Shell, C++, Python, MATLAB, Cuda, Makefile, Dockerfile",33958,18723,2018.7573
+zenorocha/clipboard.js,"JavaScript, TypeScript, Shell",33915,3988,248.16515833333332
+mlabonne/llm-course,Jupyter Notebook,33831,3529,120.05696759259258
+huihut/interview,"C, C++, CMake",33758,7891,260.03129861111114
+testerSunshine/12306,"Python, Dockerfile, Shell",33736,9789,2489.6765333333333
+tmux/tmux,"C, Shell, Awk, Makefile, M4, Roff, Perl, Yacc",33737,2053,92.20416944444445
+jaredpalmer/formik,"TypeScript, JavaScript, CSS, Shell",33708,2772,400.0238361111111
+suno-ai/bark,"Python, Jupyter Notebook",33709,3996,38.47483611111111
+novuhq/novu,"TypeScript, JavaScript, Dockerfile, Shell, Handlebars, HTML, EJS, Vue, Python, Smarty",33696,3458,2162.1975027777776
+microsoft/DeepSpeed,"Python, Shell, C++, Cuda, Dockerfile, C, Batchfile",33707,3957,1770.149325
+typeorm/typeorm,"TypeScript, JavaScript, Dockerfile",33688,6231,1812.5380861111112
+google/googletest,"CMake, C++, C, Python, Shell, Starlark, Batchfile",33684,9978,1287.3945527777778
+lapce/lapce,"Rust, Makefile, PowerShell, Shell, HCL, Dockerfile",33632,1001,3676.9023305555556
+Kong/insomnia,"JavaScript, HTML, CSS, Shell, TypeScript, Dockerfile, Nix",33613,1877,2124.7358444444444
+junegunn/vim-plug,"Shell, Vim Script",33584,1900,697.41755
+photoprism/photoprism,"Go, Dockerfile, JavaScript, CSS, Vue, Makefile, Shell, Mermaid, Batchfile",33560,1845,5614.116838888889
+xitu/gold-miner,,33540,5017,180.6110111111111
+shadowsocks/shadowsocks,"Python, Shell",33533,18665,0
+trpc/trpc,"TypeScript, JavaScript, CSS, MDX",33516,1195,1142.9287
+bevyengine/bevy,"Rust, GLSL, Shell, Smarty, WGSL, Mermaid",33523,3261,5519.815891666667
+google-research/google-research,"Python, Jupyter Notebook, Shell, MATLAB, Dockerfile, JavaScript, CSS, HTML, C++, Java",33374,7770,1598.6149500000001
+Ryujinx/Ryujinx,"C#, GLSL, Python, Shell, Makefile, C, HLSL",33366,3855,4308.117247222222
+AFNetworking/AFNetworking,"Objective-C, Ruby, Swift, C, Shell",33331,10384,0
+adobe/brackets,"JavaScript, HTML, Ruby, CSS, Shell, PHP, Makefile, Clojure, Batchfile, Hack",33289,7655,1055.8422694444444
+run-llama/llama_index,"Python, Makefile, Jupyter Notebook, Shell, Dockerfile, Starlark, JavaScript, Scheme",33301,4660,618.1506388888888
+rapid7/metasploit-framework,"Ruby, Shell, C, HTML, JavaScript, PowerShell, Python, PHP, Assembly, DIGITAL Command Language",33265,13799,568.6820555555555
+zhongyang219/TrafficMonitor,"C++, C, Batchfile",33249,3197,15805.648836111111
+jgm/pandoc,"Haskell, Makefile, HTML, CSS, Lua, Shell, Perl, Smarty, Roff, TeX",33191,3301,4408.962608333333
+streamlit/streamlit,"Makefile, Shell, JavaScript, TypeScript, HTML, Batchfile, Python, SCSS, CSS",33187,2899,5179.289894444445
+Blankj/AndroidUtilCode,"Java, Groovy, Kotlin, Shell",33103,10654,1441.2472083333334
+sorrycc/awesome-javascript,,33059,4395,6567.747923126615
+netty/netty,"Java, HTML, CSS, Shell, Groovy, C, Makefile, JavaScript, Dockerfile",33056,15812,2759.0087027777777
+hankcs/HanLP,"Python, Java, Jupyter Notebook",32981,9775,3732.0523916666666
+docker/compose,"Shell, Dockerfile, Makefile, Go, HTML, HCL",32981,5102,6104.139427777778
+gulpjs/gulp,JavaScript,32949,4237,226.87675833333333
+ggerganov/whisper.cpp,"Makefile, Python, C, C++, Shell, CMake, Batchfile, JavaScript, Go, Ruby",32961,3296,352.05948333333333
+files-community/Files,"C#, C++, C, PowerShell",32949,2101,2882.2929194444446
+immutable-js/immutable-js,"JavaScript, TypeScript, Shell, CSS",32907,1786,1083.1018611111112
+termux/termux-app,"Java, C, Makefile, Shell, Assembly, C++",32911,3475,3977.8859944444443
+XX-net/XX-Net,"Python, JavaScript, Shell, CSS, HTML, Batchfile, C, VBScript",32848,7711,1165.4037999999998
+fxsjy/jieba,"Python, OpenEdge ABL",32784,6705,3796.4218333333333
+atlassian/react-beautiful-dnd,"JavaScript, HTML",32762,2520,1855.6312222222223
+microsoft/AI-For-Beginners,"Jupyter Notebook, Python, JavaScript, HTML, Vue, Dockerfile, Shell",32772,5395,1161.2914987080103
+PKUanonym/REKCARC-TSC-UHT,"HTML, TeX, Java, Assembly, C, Makefile, Python, C#, ShaderLab, MATLAB",32729,7608,7295.254333333333
+httpie/cli,"Makefile, Shell, Python, Roff, Dockerfile",32714,3674,7958.507286111111
+sharkdp/fd,"Rust, Shell, Makefile",32549,783,706.7271388888889
+xkcoding/spring-boot-demo,"Java, HTML, FreeMarker, Dockerfile, PLpgSQL, TSQL, Lua",32512,10746,699.3778272450533
+zxing/zxing,"Java, HTML, CSS",32469,9302,1495.146663888889
+halo-dev/halo,"Java, Dockerfile, Vue, Shell, JavaScript, Makefile, TypeScript, SCSS, MDX",32472,9452,863.8408388888889
+goabstract/Awesome-Design-Tools,JavaScript,32428,2040,1788.1739222222222
+halfrost/LeetCode-Go,"Go, HTML, JavaScript, CSS, Shell, Python, SCSS",32405,5644,519.5181048387097
+markedjs/marked,"JavaScript, HTML, TypeScript",32314,3364,9940.200819444446
+appsmithorg/appsmith,"Dockerfile, Java, HTML, Shell, JavaScript, CSS, TypeScript, Handlebars, Smarty, Procfile",32314,3498,2159.7558833333333
+carbon-language/carbon-lang,"GDB, Starlark, Python, C++, C, Shell, Makefile, Lex, Yacc, JavaScript",32304,1477,5107.785113888889
+google/material-design-lite,"CSS, JavaScript, HTML",32286,5047,1523.4351527777778
+shadowsocks/ShadowsocksX-NG,"Ruby, Swift, Objective-C, Shell, Python, C, Rich Text Format, Makefile",32256,7960,1449.2726083333332
+bilibili/ijkplayer,"Shell, Java, Makefile, C, Objective-C, C++, Ruby",32245,8088,4089.556111111111
+2dust/v2rayNG,"Java, Kotlin",32172,5041,1050.5741833333334
+gofiber/fiber,"Go, Makefile",32093,1594,74.816175
+ziglang/zig,"CMake, C++, C, Shell, Zig, HTML, JavaScript, Python, Assembly, Objective-C",32084,2341,6181.967869444444
+saadeghi/daisyui,"CSS, JavaScript, HTML, Svelte, Astro",32011,1238,526.8655805555555
+typicode/husky,"JavaScript, Shell, TypeScript",31960,1003,10734.679091666665
+ray-project/ray,"Shell, C++, Python, C, HTML, CSS, Java, Dockerfile, JavaScript, TypeScript",31967,5445,4042.6360611111113
+slidevjs/slidev,"JavaScript, Vue, TypeScript, HTML, CSS",31922,1261,864.5548694444444
+ccxt/ccxt,"JavaScript, PHP, Python, Shell, Dockerfile, HTML, TypeScript, Handlebars, C#, Batchfile",31912,7367,446.4955972222222
+docker/awesome-compose,"Dockerfile, JavaScript, TypeScript, HTML, CSS, C#, Python, Go, Java, Vue",31914,6157,3119.0047002923975
+harness/gitness,"Go, Shell, Dockerfile, Makefile, JavaScript, SCSS, TypeScript, HTML, Smarty",31866,2776,3343.9964416666667
+alebcay/awesome-shell,,31858,2344,4754.625767195767
+laravel/framework,"PHP, CSS, Hack, Shell, Blade, JavaScript",31812,10765,284.5325055555556
+coqui-ai/TTS,"Python, Jupyter Notebook, HTML, Shell, Makefile, Cython, Dockerfile",31804,3809,744.5624888888889
+TheAlgorithms/JavaScript,"JavaScript, Shell, TypeScript",31762,5442,1621.116513888889
+jellyfin/jellyfin,"C#, Shell, HTML, CSS",31745,2899,2365.3205333333335
+colinhacks/zod,"TypeScript, JavaScript, Shell, HTML",31715,1099,2020.6515388888888
+solidjs/solid,"JavaScript, TypeScript, CSS",31655,888,782.1013916666666
+Trinea/android-open-project,,31578,11933,2460.2542454954955
+SimplifyJobs/Summer2025-Internships,,31521,2605,4.9795444444444446
+bayandin/awesome-awesomeness,Ruby,31463,3536,5081.4188354700855
+alibaba/easyexcel,Java,31429,7436,2072.2962944444444
+fastify/fastify,"JavaScript, TypeScript, Shell",31270,2214,1199.868161111111
+sqlmapproject/sqlmap,"Python, C, Perl, C++, Shell, PLpgSQL, TSQL, HTML, PLSQL",31255,5601,3807.031363888889
+helix-editor/helix,"Rust, Nix, CSS, Handlebars, Scheme, Shell, Elvish, C++",31183,2310,1876.5358694444444
+beego/beego,"Go, Makefile, Smarty, Shell",31116,5579,343.0791194444445
+LC044/WeChatMsg,"Python, HTML, Jupyter Notebook",31126,3243,353.28911944444445
+certbot/certbot,"Python, Shell, Makefile, Batchfile, Augeas, Dockerfile, PowerShell, NSIS, Smarty, DIGITAL Command Language",31116,3377,4838.279386111111
+The-Run-Philosophy-Organization/run,,31084,2575,25.861094444444443
+blueimp/jQuery-File-Upload,"JavaScript, HTML, CSS, Python, PHP, Dockerfile",30977,7976,139.85245833333332
+fengdu78/Coursera-ML-AndrewNg-Notes,"HTML, Jupyter Notebook",30972,10515,3485.2557291666667
+hasura/graphql-engine,"Go, HTML, Makefile, Haskell, JavaScript, CSS, PLpgSQL, Shell, Dockerfile, Python",30944,2742,2253.7360777777776
+Chanzhaoyu/chatgpt-web,"JavaScript, HTML, Vue, TypeScript, CSS, Shell, Dockerfile, Less, Batchfile",30942,11202,62.18062777777778
+expo/expo,"Ruby, Shell, Java, JavaScript, C++, C, HTML, Objective-C, Objective-C++, TypeScript",30937,4892,1941.1638555555555
+nushell/nushell,"Rust, Shell, Python, Batchfile, PowerShell, Dockerfile, Nushell",30915,1583,4273.504369444445
+logseq/logseq,"JavaScript, HTML, CSS, Clojure, Dockerfile, Shell, TypeScript, Java, Swift, Ruby",30814,1790,1705.3421555555556
+GitHubDaily/GitHubDaily,,30774,3421,3074.457972222222
+DIYgod/RSSHub,"JavaScript, Dockerfile, Shell, TypeScript, HTML",30759,6871,1073.7324333333333
+gradio-app/gradio,"Python, JavaScript, HTML, Shell, CSS, Svelte, TypeScript, MDX, Jupyter Notebook, Roff",30719,2283,1442.9048805555556
+huggingface/pytorch-image-models,"Python, Shell, MDX",30640,4630,462.1942694444445
+ziadoz/awesome-php,,30594,5044,1058.0843833333333
+reworkd/AgentGPT,"JavaScript, TypeScript, CSS, Shell, Dockerfile, Python, Batchfile, MDX",30579,9172,481.7844777777778
+geekcomputers/Python,"Python, Tcl, Jupyter Notebook, Java, C++, HTML, JavaScript, Makefile",30549,12080,2324.279413888889
+mqyqingfeng/Blog,,30531,4704,834.5897108843537
+swc-project/swc,"Rust, Shell, JavaScript, TypeScript, Python, SCSS",30475,1179,2723.2224194444448
+ReactiveX/rxjs,"HTML, JavaScript, TypeScript, Shell, Dockerfile, SCSS",30437,2990,741.179175
+microsoft/MS-DOS,"Assembly, C++, NASL, C, POV-Ray SDL, SourcePawn, Pascal, Prolog, BitBake, Batchfile",30395,4322,0
+CMU-Perceptual-Computing-Lab/openpose,"C++, Shell, Cuda, Batchfile, CMake, HCL, Python",30383,7797,688.5034694444445
+amix/vimrc,"Shell, Ruby, Python, Makefile, CoffeeScript, HTML, Dockerfile, Vim Snippet, Haml, CMake",30350,7261,5875.954175000001
+karanpratapsingh/system-design,,30339,3141,263.8461549707602
+python-poetry/poetry,"Python, HTML",30330,2233,1381.186525
+ibraheemdev/modern-unix,,30318,767,733.0012037037037
+zsh-users/zsh-autosuggestions,"Shell, Makefile, Ruby, Dockerfile",30301,1845,3468.6907749999996
+Binaryify/NeteaseCloudMusicApi,,30275,15768,544.8941222222222
+alibaba/p3c,"Kotlin, Java, FreeMarker, CSS",30234,8050,822.2504194444443
+yewstack/yew,"Rust, Shell, JavaScript, CSS, HTML, TypeScript, Python, SCSS, MDX",30234,1411,10293.69523611111
+lib-pku/libpku,"JavaScript, TeX",30198,8278,185.16563620071685
+pcottle/learnGitBranching,"JavaScript, CSS, HTML, Shell, Dockerfile, Makefile",30090,5718,170.374575
+ityouknow/spring-boot-examples,"Java, CSS, HTML, Dockerfile",30083,12342,2487.207306397306
+open-webui/open-webui,"JavaScript, Dockerfile, Shell, CSS, HTML, Svelte, TypeScript, Python, Batchfile, Makefile",30146,3267,244.6496888888889
+niklasvh/html2canvas,"JavaScript, HTML, CSS, TypeScript",30082,4750,11398.769816666667
+hashicorp/vault,"Go, Shell, Makefile, Batchfile, HCL, JavaScript, HTML, Dockerfile, SCSS, Handlebars",30027,4124,2051.8567333333335
+mathiasbynens/dotfiles,"Shell, GDB, Vim Script",30012,8735,5447.319741666667
+joshbuchea/HEAD,,29946,1919,1122.6870814307458
+kilimchoi/engineering-blogs,Ruby,29882,1460,1478.1448085585587
+ryanhanwu/How-To-Ask-Questions-The-Smart-Way,JavaScript,29872,5580,1632.2470502645501
+airbnb/lottie-web,"HTML, JavaScript",29854,2849,3294.5714416666665
+vercel/swr,"JavaScript, TypeScript, Shell",29849,1196,2890.596777777778
+typst/typst,"Rust, Nix, Dockerfile, Typst, PostScript, TypeScript, Shell",29846,819,1996.0306694444446
+calcom/cal.com,"JavaScript, CSS, TypeScript, Shell, Procfile, HTML, PHP, MDX, Dockerfile, PLpgSQL",29796,6991,1208.1428472222221
+doocs/leetcode,"Java, Python, C++, Ruby, Go, Scala, JavaScript, C, Shell, C#",29797,5620,581.7364159891599
+facebookresearch/fairseq,"Python, C++, Lua, Shell, Cuda, Cython",29789,6303,286.42345
+vuejs/vue-cli,"JavaScript, Vue, HTML, AppleScript, TypeScript, Shell, Stylus",29778,6334,976.2552388888888
+SeleniumHQ/selenium,"Shell, HTML, C#, JavaScript, CSS, XSLT, C++, C, Java, Makefile",29769,8020,3560.950058333334
+ehang-io/nps,"Go, Makefile, Shell",29765,5374,2632.9399416666665
+jaywcjlove/linux-command,"HTML, Stylus, JavaScript, Markdown, Dockerfile",29713,5868,1190.4162055555555
+qishibo/AnotherRedisDesktopManager,"HTML, JavaScript, SCSS",29693,2516,2737.5663472222222
+Stirling-Tools/Stirling-PDF,"Dockerfile, Java, CSS, HTML, JavaScript, Shell, Python, Smarty, Gherkin, Rich Text Format",29697,2177,1176.6607666666666
+foundation/foundation-sites,"JavaScript, HTML, SCSS, Shell",29648,5499,652.3468583333333
+portainer/portainer,"JavaScript, HTML, CSS, Go, Shell, Dockerfile, Handlebars, TypeScript, EJS, Makefile",29648,2380,2715.465461111111
+TheAlgorithms/C-Plus-Plus,"C++, Dockerfile, CMake, Python",29608,7034,4915.159963888889
+0xAX/linux-insides,"Shell, Python, Dockerfile, Makefile",29603,3313,2504.7773305555556
+SerenityOS/serenity,"C++, C, Makefile, Assembly, Shell, HTML, CSS, CMake, JavaScript, Dockerfile",29609,3144,4898.593347222222
+chatchat-space/Langchain-Chatchat,"Python, Shell, Dockerfile, JavaScript, TypeScript, MDX, Makefile",29573,5192,1726.8609472222222
+jqlang/jq,"C, Shell, Python, Lex, Yacc, Makefile, M4, Dockerfile, jq, C++",29563,1538,2163.0586694444446
+geekan/HowToLiveLonger,,29519,2066,6012.2010527777775
+cockroachdb/cockroach,"Shell, Go, CSS, Makefile, C++, C, TypeScript, Yacc, Awk, JavaScript",29508,3700,3091.468675
+symfony/symfony,"Shell, PHP, HTML, CSS, JavaScript, Hack, Twig, Makefile",29475,9407,1072.7783694444445
+TeamNewPipe/NewPipe,"Java, HTML, Kotlin",29472,2950,8493.914075
+alibaba/nacos,"Java, Shell, Batchfile, JavaScript, TypeScript, SCSS, EJS",29461,12658,887.4905
+ariya/phantomjs,"C, Shell, C++, JavaScript, HTML, CSS, Python, CMake",29444,5760,6220.144472222222
+yunjey/pytorch-tutorial,"Python, Shell",29444,7995,1056.61075
+react-boilerplate/react-boilerplate,"HTML, JavaScript",29420,6129,580.9108833333333
+spacedriveapp/spacedrive,"JavaScript, Rust, TypeScript, HTML, Swift, SCSS, Dockerfile, CSS, Shell, Java",29389,835,1757.9126888888889
+facebookresearch/faiss,"C++, C, Python, Cuda, Shell, CMake, Batchfile, Jupyter Notebook",29362,3481,434.40531111111113
+elsewhencode/project-guidelines,JavaScript,29324,3231,5082.770680076628
+facebookresearch/detectron2,"Shell, Python, C++, Cuda, Dockerfile, CMake",29337,7323,395.81106111111114
+ianstormtaylor/slate,"JavaScript, TypeScript, CSS",29292,3210,464.22285
+layui/layui,"JavaScript, CSS",29260,7322,33790.84288333333
+sequelize/sequelize,"JavaScript, TypeScript, Shell, Batchfile",29252,4248,4856.15673888889
+square/leakcanary,"Shell, Kotlin, Java, AIDL",29238,3962,1691.4541583333332
+microsoft/calculator,"PowerShell, C#, C++, C, Shell",29236,5276,1392.746925
+penpot/penpot,"Clojure, JavaScript, HTML, Shell, PLpgSQL, Dockerfile, XSLT, SCSS, Mustache, CSS",29226,1426,5869.2675944444445
+lukehoban/es6features,,29214,2867,176.5817361111111
+webtorrent/webtorrent,"JavaScript, Shell",29209,2689,4148.068897222222
+explosion/spaCy,"Shell, Python, HTML, JavaScript, Makefile, Sass, Jinja, Cython, Dockerfile, C++",29204,4325,1653.2229333333332
+aosabook/500lines,"Makefile, HTML, CSS, JavaScript, Ruby, Python, Shell, Clojure, Java, CoffeeScript",29183,5877,2282.4954487179484
+CSSEGISandData/COVID-19,,29161,18468,221.42773055555554
+veggiemonk/awesome-docker,,29159,2938,481.99492499999997
+coolsnowwolf/lede,"Makefile, Awk, Shell, C, Assembly, C++, M4, CMake, Perl, Lex",29158,19456,75.03594722222222
+IanLunn/Hover,"JavaScript, CSS, HTML, Less, SCSS",29145,5797,2436.1601606425706
+tatsu-lab/stanford_alpaca,Python,29115,4017,204.33993127147767
+donnemartin/interactive-coding-challenges,"C++, Python",29095,4411,1595.9308854166666
+Pythagora-io/gpt-pilot,"Python, JavaScript, CSS, EJS, HTML, Mako, Smarty",29078,2905,606.6499277777779
+SortableJS/Sortable,"JavaScript, CSS, HTML",29065,3677,745.1662416666667
+google/jax,"Python, Shell, C++, Jupyter Notebook, Starlark, C, MAXScript",29058,2661,5082.999522222222
+floating-ui/floating-ui,"JavaScript, HTML, TypeScript, CSS, Vue, MDX",29041,1570,959.827375
+NaiboWang/EasySpider,"Python, HTML, JavaScript, CSS, Batchfile, TypeScript, Vue, Shell",29047,3405,81.47848055555556
+standard/standard,"JavaScript, Shell",28979,2324,232.67820833333334
+labstack/echo,"Go, HTML, Makefile",28980,2204,1000.7231333333333
+apolloconfig/apollo,"Java, JavaScript, CSS, HTML, Shell, Batchfile, Dockerfile",28948,10188,1274.5817
+lllyasviel/ControlNet,"Python, Shell",28931,2610,296.4302138888889
+AykutSarac/jsoncrack.com,"JavaScript, TypeScript, Dockerfile",28907,1712,1152.9019916666666
+kubernetes/minikube,"Go, Shell, Makefile, Python, NSIS, PowerShell, Dockerfile, CSS, HTML, JavaScript",28768,4807,1850.0257666666666
+AMAI-GmbH/AI-Expert-Roadmap,"Vue, JavaScript, Stylus",28732,2437,1045.1959782608697
+astral-sh/ruff,"Rust, Python, HTML, TypeScript, CSS, JavaScript, Shell, Dockerfile",28729,931,471.5524694444444
+VincentGarreau/particles.js,JavaScript,28666,4815,4032.4643388888885
+dromara/hutool,"Shell, Java, FreeMarker, HTML, JavaScript, Velocity Template Language",28660,7439,715.00265
+maybe-finance/maybe,"Dockerfile, JavaScript, CSS, HTML, Shell, Ruby",28666,2185,108.30005833333334
+parallax/jsPDF,"HTML, JavaScript, TypeScript",28645,4613,8533.824269444445
+lukasz-madon/awesome-remote-job,,28633,3322,4373.616084656084
+herrbischoff/awesome-macos-command-line,,28615,1433,0
+kodecocodes/swift-algorithm-club,"Swift, Objective-C, Shell, C",28607,5004,1573.474088888889
+usememos/memos,"Go, HTML, TypeScript, Less, Dockerfile, JavaScript, CSS",28611,2127,731.1456888888889
+balena-io/etcher,"CSS, JavaScript, HTML, Shell, TypeScript",28599,2036,2656.6294444444443
+mattermost/mattermost,"Makefile, Go, HTML, Shell, Dockerfile, JavaScript, Rich Text Format, CSS, PLpgSQL, TypeScript",28574,6999,397.5828305555555
+RVC-Boss/GPT-SoVITS,"Python, Batchfile, Shell, Dockerfile, PowerShell, Jupyter Notebook",28612,3315,158.22439444444444
+tastejs/todomvc,"JavaScript, HTML, CSS, Shell",28546,13791,3235.454186111111
+transloadit/uppy,"HTML, JavaScript, Shell, Makefile, TypeScript, Dockerfile, SCSS, Svelte, Vue",28551,1963,3231.3450861111114
+OAI/OpenAPI-Specification,"JavaScript, HTML, Shell, CSS, PowerShell, Markdown",28539,9049,11036.271994444445
+lizongying/my-tv,"Kotlin, CMake, Makefile, C, Java, Shell",28523,3213,244.61190555555555
+open-mmlab/mmdetection,"Shell, Python, Dockerfile",28516,9285,2397.7422611111115
+trailofbits/algo,"Shell, Python, Dockerfile, Makefile, Jinja",28510,2307,1877.9691750000002
+pnpm/pnpm,"JavaScript, TypeScript, Shell, Batchfile",28475,952,3932.328761111111
+ShareX/ShareX,"C#, Inno Setup, CSS, HTML",28474,3121,1136.2289944444444
+vuejs/vuex,"JavaScript, TypeScript",28407,9551,816.4642027777777
+remix-run/remix,"JavaScript, TypeScript, Arc, Shell, CSS",28412,2393,6994.526211111111
+composer/composer,PHP,28393,4489,4116.168305555556
+lovell/sharp,"Python, JavaScript, C++, Shell, C, Dockerfile, TypeScript",28380,1278,1413.2534722222222
+OpenDevin/OpenDevin,"HTML, CSS, TypeScript, Python, Dockerfile, Shell, JavaScript, Makefile, Ruby, Roff",28397,3250,169.14819444444444
+kenwheeler/slick,"Makefile, Ruby, CSS, JavaScript, HTML, Less, SCSS",28331,5884,451.1191166666667
+postcss/postcss,"JavaScript, TypeScript",28310,1556,693.2424194444444
+jobbole/awesome-python-cn,Makefile,28305,7859,731.8358179012346
+codepath/android_guides,,28296,6367,3233.3420916666664
+v2fly/v2ray-core,"Go, Shell, Assembly, Makefile, HTML, Dockerfile",28300,4524,1110.9500555555555
+Ebazhanov/linkedin-skill-assessments-quizzes,,28277,13399,467.4390583333334
+remoteintech/remote-jobs,"JavaScript, Shell, HTML, CSS, Dockerfile",28257,2969,5609.629686111111
+influxdata/influxdb,"Shell, Rust, Dockerfile, Python, HTML, HCL",28198,3507,1814.9138500000001
+zeromicro/go-zero,"Go, Makefile, ANTLR, Dockerfile, Smarty, Shell, TypeScript, Lua",28160,3843,716.3694250000001
+milvus-io/milvus,"CMake, Python, Shell, C++, Groovy, Dockerfile, Makefile, Go, C, Batchfile",28127,2711,568.2157416666666
+caolan/async,"Makefile, JavaScript, Shell, CSS",28124,2407,10761.729258333333
+ToolJet/ToolJet,"HTML, JavaScript, SCSS, Shell, Dockerfile, HCL, TypeScript, Batchfile, EJS, Procfile",28114,3418,243.40548611111112
+jashkenas/backbone,"JavaScript, HTML, CoffeeScript",28106,5397,966.8905666666667
+microsoft/autogen,"JavaScript, CSS, Dockerfile, Python, Jupyter Notebook, MDX, PowerShell, Shell, C#",28106,4103,1822.2069777777779
+Awesome-Windows/Awesome,,28087,2394,1465.6271714092143
+ascoders/weekly,JavaScript,28080,3200,309.70186388888885
+alibaba/canal,"Java, Shell, Batchfile, Dockerfile, Python, HTML, CSS, JavaScript, Vue, PLpgSQL",28067,7547,382.56785833333333
+fabricjs/fabric.js,"JavaScript, HTML, Mustache, TypeScript, CSS, Vue",28075,3451,3672.277027777778
+upscayl/upscayl,"Python, JavaScript, CSS, TypeScript, Shell",28049,1251,736.9826333333333
+cheeriojs/cheerio,"HTML, TypeScript, JavaScript, CSS, MDX",28045,1623,6973.395169444444
+hashicorp/consul,"Go, Makefile, Shell, HTML, JavaScript, Gherkin, Dockerfile, HCL, Handlebars, SCSS",28037,4394,1953.4442416666666
+acheong08/ChatGPT,"Python, Makefile, Batchfile",28022,4497,51.97997222222222
+GoogleChrome/lighthouse,"JavaScript, Shell, HTML, CSS, Python, Handlebars, TypeScript",28022,9318,1098.4173527777778
+wuyouzhuguli/SpringAll,"Java, CSS, HTML, JavaScript, PLpgSQL",28012,8084,302.03134773662555
+realpython/python-guide,"Makefile, Batchfile",27962,5810,11196.028563888889
+zhayujie/chatgpt-on-wechat,"Python, Shell, Dockerfile",27976,7450,45.74716111111111
+ZuzooVn/machine-learning-for-software-engineers,,27934,6190,3801.4366975308644
+JushBJJ/Mr.-Ranedeer-AI-Tutor,,27900,3215,158.99378787878788
+tqdm/tqdm,"Python, Makefile, Roff, Jupyter Notebook, Shell",27888,1338,2013.3033555555555
+apache/kafka,"Shell, Java, Scala, HTML, Python, Batchfile, XSLT, Dockerfile, Roff",27863,13663,0
+facebook/rocksdb,"Shell, Python, C++, C, Makefile, Java, CMake, PowerShell, Perl, Assembly",27836,6196,1314.7131388888888
+encode/django-rest-framework,"HTML, CSS, JavaScript, Python",27828,6763,3699.6449944444444
+AllThingsSmitty/css-protips,,27826,2157,5198.072142184557
+pola-rs/polars,"Rust, Python, Makefile, CSS",27807,1700,916.5127972222222
+qier222/YesPlayMusic,"JavaScript, HTML, Vue, CSS, Shell, Dockerfile, SCSS",27766,4092,507.5235944444444
+alibaba/druid,"Java, HTML, CSS, JavaScript, Shell, PLSQL, Batchfile, TSQL, Dockerfile, SCSS",27761,8553,5074.810975
+pmndrs/react-spring,"JavaScript, TypeScript, HTML, CSS, Shell",27730,1182,549.5965972222223
+linexjlin/GPTs,,27672,3736,498.0275505050505
+pbatard/rufus,"Shell, C, Assembly, Makefile, Batchfile, M4, Python, sed, C#, PowerShell",27658,2499,3448.5360444444445
+jamiebuilds/the-super-tiny-compiler,JavaScript,27632,2831,0
+aseprite/aseprite,"CMake, C, C++, Objective-C++, Shell, Lua",27589,5013,5529.1353
+alibaba/spring-cloud-alibaba,"Java, Shell, JavaScript, HTML, Dockerfile, Smalltalk",27572,8242,857.0877277777778
+codex-team/editor.js,"JavaScript, CSS, HTML, TypeScript",27564,2024,2735.895891666667
+facebook/folly,"C++, C, Shell, Python, Makefile, CSS, Ruby, Assembly, CMake, Batchfile",27509,5464,5084.251844444445
+Lightning-AI/pytorch-lightning,"Python, Shell, Dockerfile, Makefile, JavaScript, HTML, TypeScript, CSS",27466,3294,878.0824583333333
+alpinejs/alpine,"JavaScript, HTML",27441,1197,493.416225
+ChartsOrg/Charts,"Swift, Objective-C, Ruby, Shell, C",27419,5965,743.6133138888889
+JedWatson/react-select,"JavaScript, TypeScript, CSS",27417,4096,7707.85595
+digitalocean/nginxconfig.io,"JavaScript, Vue, SCSS, Shell",27376,2009,2072.9588916666667
+mobxjs/mobx,"JavaScript, TypeScript, CSS, HTML, Shell",27367,1759,1009.9420333333333
+Advanced-Frontend/Daily-Interview-Question,JavaScript,27331,3292,331.83491111111107
+nagadomi/waifu2x,"Lua, Shell, HTML, CSS, JavaScript, Ruby, Dockerfile, Python",27326,2705,1678.8420888888888
+huiyadanli/RevokeMsgPatcher,C#,27339,3240,1205.311636111111
+mckaywrigley/chatbot-ui,"TypeScript, JavaScript, CSS, Shell, PLpgSQL",27304,7573,1971.558047222222
+ageron/handson-ml2,"Jupyter Notebook, Dockerfile, Makefile, Shell, Python",27278,12599,1948.074286111111
+gchq/CyberChef,"JavaScript, HTML, CSS, Dockerfile",27279,3082,3409.074411111111
+GorvGoyl/Clone-Wars,,27270,2404,1282.4667069243155
+jashkenas/underscore,"JavaScript, HTML",27263,5508,423.40396111111113
+immerjs/immer,"JavaScript, TypeScript, HTML, CSS, MDX",27244,842,835.2299777777778
+FlowiseAI/Flowise,"JavaScript, Shell, Dockerfile, TypeScript, Batchfile, HTML, SCSS, CSS",27254,14059,1544.1245805555557
+wesbos/JavaScript30,"HTML, CSS, JavaScript",27209,36895,0
+YMFE/yapi,"JavaScript, CSS, HTML, SCSS, Less",27206,4764,131.00779444444444
+lenve/vhr,Java,27178,10286,1043.9904658564815
+Tencent/weui,"JavaScript, HTML, Less",27128,6420,2526.823652777778
+myshell-ai/OpenVoice,"Python, Jupyter Notebook",27111,2625,87.14205917874396
+OWASP/CheatSheetSeries,"Shell, Python, Java, HTML, Makefile",27089,3796,4374.298388888888
+crossoverJie/JCSprout,Java,27077,7096,714.792895480226
+numpy/numpy,"Python, C, C++, Fortran, Makefile, Shell, sed, Smarty, D, Cython",27038,9612,6857.096955555556
+docsifyjs/docsify,"JavaScript, Shell, Stylus, Dockerfile",27040,5648,944.0054694444444
+backstage/backstage,"JavaScript, HTML, TypeScript, Dockerfile, Shell, CSS, Handlebars, Mustache, Makefile, HCL",27029,5639,1147.6488
+geekcompany/ResumeSample,,27029,9007,0
+Homebrew/legacy-homebrew,,27020,11370,1013.6472722222222
+microsoft/Data-Science-For-Beginners,"JavaScript, HTML, Vue, Jupyter Notebook",26998,5575,1165.6548918128656
+2noise/ChatTTS,"Python, Go, Shell",27046,2941,389.33321111111115
+k3s-io/k3s,"Go, Shell, Dockerfile, Makefile, HCL, Ruby",26982,2270,3402.6765694444443
+xuxueli/xxl-job,"Java, Dockerfile",26967,10738,6453.822902777778
+xinntao/Real-ESRGAN,Python,26932,3383,916.210775
+viraptor/reverse-interview,,26828,2054,1685.4517438271605
+schollz/croc,"Go, Shell, Dockerfile, Makefile",26809,1074,2715.07245
+fzaninotto/Faker,"Makefile, PHP",26799,3566,2228.820125
+lutzroeder/netron,"JavaScript, Python, HTML, CSS, Shell",26804,2702,2424.559580555556
+Automattic/mongoose,"JavaScript, HTML, Pug, TypeScript",26767,3800,770.7322861111111
+llvm/llvm-project,"Starlark, C++, LLVM, Cuda, CMake, C, Assembly, Python, MLIR, Fortran",26765,10964,87589.75183611111
+MonitorControl/MonitorControl,"Swift, Objective-C",26755,796,7689.025055555555
+Pierian-Data/Complete-Python-3-Bootcamp,"Jupyter Notebook, Python",26737,84109,3016.6774277777777
+houshanren/hangzhou_house_knowledge,"HTML, CSS",26716,5326,951.4880960648148
+donnemartin/data-science-ipython-notebooks,"Python, CSS, Makefile, Dockerfile",26718,7762,603.4367045454545
+google/comprehensive-rust,"JavaScript, AIDL, Rust, Shell, Java, C, CSS, Handlebars, Makefile, Assembly",26714,1579,1331.1335194444443
+mpv-player/mpv,"Objective-C, C, Python, Shell, Lua, JavaScript, Swift, Meson, PowerShell",26703,2836,1579.9408361111111
+codemirror/codemirror5,"JavaScript, CSS, Shell, HTML",26680,4950,1196.1114111111112
+zbezj/HEU_KMS_Activator,,26682,2833,1571.716052631579
+angular/angular-cli,"JavaScript, HTML, TypeScript, CSS, Shell, Starlark, EJS, jq",26661,11978,2430.612225
+GitbookIO/gitbook,"JavaScript, TypeScript, CSS",26647,3817,6881.3846861111115
+servo/servo,"Rust, JavaScript, HTML, Python, CSS, PostScript, WebIDL, Shell, Nix, Batchfile",26641,2933,6377.505355555556
+rethinkdb/rethinkdb,"Makefile, JavaScript, CSS, HTML, Python, Ruby, Shell, AppleScript, Haskell, C",26616,1860,2683.843775
+pmndrs/react-three-fiber,"JavaScript, TypeScript, Shell, HTML",26614,1510,491.9507888888889
+cfenollosa/os-tutorial,"Assembly, C, Makefile",26597,3240,1944.6377805555555
+nvie/gitflow,Shell,26590,2658,8909.6716
+OpenBB-finance/OpenBBTerminal,Python,26590,2603,552.9916583333334
+eugeneyan/applied-ml,,26593,3599,968.5778282828282
+google/python-fire,Python,26562,1432,4262.823869444444
+ajaxorg/ace,"Makefile, JavaScript, HTML, CSS, Shell",26538,5266,6512.936405555555
+CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers,"Jupyter Notebook, Python, HTML, CSS, Shell",26506,7837,2618.3779320987655
+statelyai/xstate,"JavaScript, TypeScript, Vue, Svelte, HTML, CSS",26502,1223,2230.128325
+directus/directus,"JavaScript, HTML, CSS, Dockerfile, TypeScript, Liquid, Vue, SCSS",26435,3673,3352.2683
+KRTirtho/spotube,"Shell, Kotlin, Swift, Objective-C, Dart, CMake, C++, C, HTML, Inno Setup",26417,1080,2761.8525611111113
+dokku/dokku,"Shell, JavaScript, HTML, Clojure, Go, Java, Ruby, Python, PHP, Scala",26377,1842,929.2198194444445
+tj/commander.js,"JavaScript, TypeScript",26368,1685,18869.27707777778
+helm/helm,"Makefile, Go, Shell",26323,7002,1545.3226444444442
+go-kit/kit,"Go, Shell",26313,2420,2271.518036111111
+zhiwehu/Python-programming-exercises,,26311,6767,4938.407091503267
+freqtrade/freqtrade,"Python, Shell, Dockerfile, Jupyter Notebook, PowerShell, HTML, Gnuplot, Jinja",26314,5772,1110.7647749999999
+spf13/viper,"Go, Makefile, Nix, Shell",26284,2004,8294.106033333333
+facebookresearch/Detectron,"CMake, Makefile, Python, MATLAB, C++, Cuda, Dockerfile, Cython",26203,5447,184.66600555555556
+coollabsio/coolify,"JavaScript, Dockerfile, CSS, Shell, PHP, Vue, Blade",26231,1330,4083.023325
+surrealdb/surrealdb,"Dockerfile, Rust, Makefile, Nix, Shell",26168,811,1809.2111027777778
+vadimdemedes/ink,"JavaScript, TypeScript",26164,587,4642.207380555556
+zadam/trilium,"JavaScript, CSS, Shell, Dockerfile, Batchfile, EJS, HTML",26145,1792,2615.3115916666666
+nextcloud/server,"PHP, CSS, JavaScript, Shell, HTML, Gherkin, Makefile, Vue, SCSS, Handlebars",26123,3935,6028.7224472222215
+google-ai-edge/mediapipe,"Python, Dockerfile, C++, Java, C, Objective-C, Shell, Objective-C++, HTML, JavaScript",26125,5038,320.75285833333334
+MichaelCade/90DaysOfDevOps,"Go, Makefile, Shell, Python, PowerShell, Dockerfile, HCL, Jinja, HTML",26119,6182,1475.5825555555557
+outline/outline,"JavaScript, HTML, Shell, Makefile, Dockerfile, TypeScript, Procfile",26122,2092,2407.6342833333333
+qiurunze123/miaosha,"Java, HTML, Lua, FreeMarker, PHP",26113,6637,8164.552371794872
+remy/nodemon,"JavaScript, HTML, Dockerfile, Shell, CSS, jq",26108,1714,6909.71925
+StevenBlack/hosts,"Python, Batchfile, Dockerfile, Nix, Shell",26108,2169,4208.706502777778
+bvaughn/react-virtualized,"JavaScript, CSS, HTML",26104,3054,253.54415555555553
+michalsnik/aos,"CSS, JavaScript",26075,2537,2341.2758750000003
+hashicorp/vagrant,"Ruby, Shell, Emacs Lisp, JavaScript, HTML, PowerShell, Makefile, Dockerfile, Go, Nix",26018,4417,502.1236361111111
+sampotts/plyr,"JavaScript, SCSS",26020,2898,2598.115844444444
+swagger-api/swagger-ui,"CSS, HTML, JavaScript, Shell, Dockerfile, SCSS",25991,8855,4022.3321694444444
+refinedev/refine,"TypeScript, JavaScript, Shell, CSS, Handlebars, HTML",25988,1965,425.6444472222222
+rstacruz/nprogress,"HTML, CSS, JavaScript",25969,1810,5276.436009615384
+dnSpy/dnSpy,"C#, Batchfile, PowerShell, Visual Basic .NET",25962,4997,0
+iawia002/lux,"Go, JavaScript",25951,2876,803.1198027777777
+makeplane/plane,"TypeScript, JavaScript, CSS, Shell, Procfile, Python, HTML, Dockerfile",25934,1403,1961.373225
+qbittorrent/qBittorrent,"Shell, C++, HTML, Python, CSS, JavaScript, CMake, Objective-C++, C, Objective-C",25914,3823,10785.08338888889
+ggreer/the_silver_searcher,"Shell, C, Perl, Python, Makefile, M4",25887,1416,4644.434826038159
+fastai/fastai,"Python, Jupyter Notebook, CSS",25854,7532,195.42825
+select2/select2,"JavaScript, HTML, SCSS",25839,6274,934.6166777777778
+JakeChampion/fetch,"Makefile, JavaScript",25809,2847,685.5507583333333
+gedoor/legado,"Kotlin, Java, CSS, HTML, JavaScript, Batchfile, Roff, AMPL, Shell, Vue",25834,3590,4611.834380555555
+dmlc/xgboost,"R, C, Python, Shell, C++, Java, Scala, CMake, Cuda, M4",25775,8688,1359.3364777777779
+mongodb/mongo,"Python, Shell, JavaScript, C++, C, HTML, GDB, Batchfile, Rich Text Format, TLA",25770,5504,0
+nothings/stb,"C, C++, Makefile, Batchfile, Shell",25763,7658,3560.6551444444444
+google-research/tuning_playbook,,25754,2155,5715.262385620915
+ultralytics/ultralytics,"Python, Shell, Dockerfile",25771,5133,1099.035325
+facebookresearch/fastText,"C++, Makefile, Python, Shell, Perl, CMake, JavaScript, HTML, CSS",25727,4698,1093.6393833333332
+qianguyihao/Web,,25712,6022,2197.169911111111
+request/request,"JavaScript, Shell",25691,3144,2732.899797222222
+alibaba/fastjson,"Java, JavaScript, Shell, Kotlin",25689,6506,4263.976727777778
+cmderdev/cmder,"C++, PowerShell, Batchfile, C",25683,2024,6885.846747222222
+derailed/k9s,"Makefile, Go, Dockerfile, Shell",25662,1606,733.8443222222222
+dwmkerr/hacker-laws,Shell,25647,1505,3018.411666666667
+Modernizr/Modernizr,"JavaScript, CSS, Batchfile, Shell, Pug",25643,2987,3766.372111111111
+nicolargo/glances,"Python, Shell, JavaScript, Dockerfile, Makefile, SCSS, Less, Vue, HTML",25651,1461,1274.8625805555555
+s0md3v/roop,Python,25637,6249,0
+hiyouga/LLaMA-Factory,"Python, Makefile, Dockerfile",25656,3174,121.88932222222222
+coder2gwy/coder2gwy,,25585,3614,1067.581755952381
+imDazui/Tvlist-awesome-m3u-m3u8,,25575,3172,9302.80773640662
+YunaiV/ruoyi-vue-pro,"Java, Shell, Dockerfile, PLpgSQL, TSQL, Python",25568,5356,1468.4640944444445
+JakeWharton/butterknife,"Shell, Java, HTML, CSS, Kotlin",25561,4605,1019.3597027777778
+DevToys-app/DevToys,"Batchfile, PowerShell, C#, HTML, TypeScript, CSS, Shell, SCSS, JavaScript",25530,1354,2909.4088194444444
+pjreddie/darknet,"C, Cuda, Makefile, Shell, Python, C++",25526,21325,1697.0561694444443
+vercel/turbo,"Makefile, Go, Dockerfile, TypeScript, JavaScript, Shell, Perl, Rust, HTML, Pug",25527,1734,2546.288944444444
+powerline/fonts,"Shell, PowerShell",25519,3192,4496.0651649305555
+quasarframework/quasar,"JavaScript, CSS, HTML, Vue, Shell, TypeScript, Sass, SCSS, Stylus",25520,3448,1609.4952527777778
+sindresorhus/awesome-electron,,25484,2012,1395.0969973544973
+alan2207/bulletproof-react,"JavaScript, Handlebars, HTML, TypeScript, CSS",25470,2365,4716.685457264957
+airbnb/lottie-ios,"Ruby, JavaScript, Swift",25466,3711,1477.379886111111
+tokio-rs/tokio,Rust,25416,2304,2242.7108
+spipm/Depix,Python,25379,3120,0
+charmbracelet/bubbletea,Go,25381,737,2747.1287722222223
+emscripten-core/emscripten,"CMake, Python, Shell, Makefile, HTML, JavaScript, C, C++, Assembly, Batchfile",25367,3249,7107.688294444444
+ycm-core/YouCompleteMe,"Shell, Python, Makefile, Dockerfile, Vim Script",25359,2796,1541.2912527777778
+getredash/redash,"Shell, Python, JavaScript, HTML, CSS, Mako, Dockerfile, Makefile, TypeScript, Less",25357,4296,8155.47118888889
+python-telegram-bot/python-telegram-bot,"Python, Makefile, Shell",25340,5145,469.22639166666664
+littlecodersh/ItChat,Python,25296,5604,194.2551611111111
+kuchin/awesome-cto,,25286,1502,557.1082291666667
+deezer/spleeter,"Dockerfile, Python, Jupyter Notebook, TeX, Shell",25270,2770,417.7799944444444
+clash-verge-rev/clash-verge-rev,"Shell, JavaScript, Rust, SCSS, TypeScript, HTML, NSIS",25341,1913,251.65020555555554
+mantinedev/mantine,"JavaScript, TypeScript, CSS, Shell, MDX",25265,1800,448.194525
+hollischuang/toBeTopJavaer,Java,25242,5466,1557.6123552425665
+terryum/awesome-deep-learning-papers,"Python, TeX",25243,4477,464.1278282828283
+mbeaudru/modern-js-cheatsheet,,25228,3146,152.43992063492064
+signalapp/Signal-Android,"Java, Python, Makefile, C++, Dockerfile, Kotlin, Handlebars, CSS, JavaScript",25153,6055,4944.354533333333
+telegramdesktop/tdesktop,"Shell, Inno Setup, C++, C, Objective-C, Python, Objective-C++, Batchfile, CSS, JavaScript",25159,4999,3908.1299944444445
+Vision-CAIR/MiniGPT-4,"Python, Shell",25131,2900,179.39788055555556
+akveo/ngx-admin,"JavaScript, TypeScript, HTML, SCSS",25121,7937,1371.4882027777778
+ageron/handson-ml,"Jupyter Notebook, Makefile, Shell, Python, Dockerfile",25115,12912,795.8179888888889
+utmapp/UTM,"Objective-C, C, Shell, Python, Swift",25112,1271,1245.0768777777778
+microsoft/cascadia-code,Python,25107,796,1503.6950666666667
+rxhanson/Rectangle,"Swift, Objective-C",25105,742,468.4049
+apache/incubator-seata,"Java, Shell, Python, Dockerfile, Mustache, ANTLR, Lua, Batchfile, Kotlin, TypeScript",25078,8726,1908.6623861111111
+fish-shell/fish-shell,"Shell, Python, CSS, HTML, Objective-C, JavaScript, Roff, CMake, Dockerfile, Makefile",25074,1879,9620.522313888889
+taichi-dev/taichi,"CMake, Python, C++, C, Cuda, Makefile, Shell, GLSL, PowerShell, Jupyter Notebook",25072,2258,5340.079175000001
+discordjs/discord.js,"JavaScript, TypeScript, CSS, Dockerfile, Lua, MDX, Handlebars",25040,3938,178.5294861111111
+tailwindlabs/headlessui,"JavaScript, TypeScript, Shell, HTML, Vue",25045,1031,689.3554388888889
+tinygrad/tinygrad,"Python, Shell, Swift, C++, Objective-C++, Objective-C, C, Dockerfile, Assembly, JavaScript",25032,2770,1804.1388249999998
+haizlin/fe-interview,"JavaScript, HTML, CSS",25024,3239,70.38148504273504
+rollup/rollup,"JavaScript, TypeScript, CSS, HTML, Rust",25020,1449,1441.1952777777778
+kataras/iris,"Go, HTML, Pug, Dockerfile, JavaScript, CSS",25017,2468,89.79763055555554
+SDWebImage/SDWebImage,"Objective-C, Ruby, C, Swift, Shell",24985,5954,3322.6152222222227
+proxyee-down-org/proxyee-down,"Java, JavaScript, HTML, Vue",24959,4452,0
+mli/paper-reading,,24918,2322,0
+openssl/openssl,"Shell, Perl, C++, C, Assembly, eC, DIGITAL Command Language, M4, Python, sed",24886,9927,5651.125058333334
+mindsdb/mindsdb,"Python, Mako, Dockerfile, Makefile, HCL, HTML",24939,4828,1466.3638444444443
+nylas/nylas-mail,"Shell, CoffeeScript, JavaScript, CSS, HTML, Batchfile, Visual Basic, Python, PHP",24800,1377,533.5752694444444
+filebrowser/filebrowser,"Go, Shell, Dockerfile, JavaScript, HTML, Vue, CSS, Makefile, TypeScript",24802,2849,861.1065388888888
+scwang90/SmartRefreshLayout,"Java, Batchfile",24795,4935,81.78556944444445
+react-native-elements/react-native-elements,"JavaScript, CSS, TypeScript, HTML, Shell, Handlebars, MDX",24793,4620,1497.8928944444444
+restic/restic,"Makefile, Go, Shell, Dockerfile",24844,1507,9897.746738888889
+ossrs/srs,"Shell, CMake, Python, HTML, C++, Makefile, JavaScript, Go, CSS, Dockerfile",24755,5279,14254.904055555557
+openfaas/faas,"Go, JavaScript, Makefile, HTML, Dockerfile",24744,1916,2710.289661111111
+nsqio/nsq,"Go, Shell, Python, Makefile, JavaScript, HTML, Dockerfile, SCSS, Handlebars, CSS",24731,2888,1891.7209611111111
+mozilla/DeepSpeech,"Python, Shell, Makefile, C, C++, JavaScript, CMake, Java, C#, Starlark",24729,3920,1174.808375
+pypa/pipenv,"Python, Roff, Shell, Batchfile, Makefile, Dockerfile",24716,1858,67.15949444444445
+ApolloAuto/apollo,"Python, Shell, C++, C, JavaScript, HTML, CMake, Smarty, Cuda, Dockerfile",24713,9624,2601.990933333333
+tw93/Pake,Rust,24695,4312,106.64346111111112
+Asabeneh/30-Days-Of-React,"HTML, JavaScript, CSS, SCSS",24663,7029,373.4250653594771
+svc-develop-team/so-vits-svc,"Python, Jupyter Notebook",24667,4678,264.40976666666666
+feathericons/feather,"JavaScript, Shell",24648,1205,2915.401647222222
+iperov/DeepFaceLive,"Python, Dockerfile, Shell",24655,4087,90.29368333333333
+ueberdosis/tiptap,"JavaScript, TypeScript, Shell",24642,2056,1610.3238777777779
+greenrobot/EventBus,"Java, CSS",24629,4656,3722.8297222222222
+eslint/eslint,"JavaScript, HTML, EJS, Shell",24591,4440,323.71278333333333
+dotnet-architecture/eShopOnContainers,"PowerShell, Shell, C#, HTML, JavaScript, CSS, TypeScript, Batchfile, Smarty, Dockerfile",24575,10362,2368.088797222222
+viatsko/awesome-vscode,JavaScript,24558,1202,1134.5160576923076
+tmrts/go-patterns,Go,24556,2168,6418.286538461539
+AvaloniaUI/Avalonia,"C#, PowerShell, Shell, C++, Objective-C++, Objective-C, C, TypeScript, HTML, JavaScript",24546,2121,8651.7086
+localForage/localForage,"JavaScript, HTML, TypeScript",24515,1264,3025.2807416666665
+firecracker-microvm/firecracker,"Rust, Shell, Python, C, Dockerfile",24515,1722,3049.4930916666667
+vuejs/devtools,"JavaScript, HTML, Vue, CSS, Stylus, TypeScript, Shell",24513,4126,3437.1444861111113
+datasciencemasters/go,,24509,6147,24335.436787439612
+cloudcommunity/Free-Certifications,,24501,1850,890.9036111111111
+dragonflydb/dragonfly,"CMake, C++, C, Shell, Python, Smarty, Dockerfile, Makefile, Go, Lex",24500,884,1391.8684472222224
+matteocrippa/awesome-swift,Ruby,24482,3064,602.8980277777778
+TanStack/table,"JavaScript, TypeScript, Svelte",24480,3025,230.72555277777778
+OpenZeppelin/openzeppelin-contracts,"JavaScript, Shell, Solidity, Makefile, Ruby, Python",24468,11691,5864.278313888889
+marmelab/react-admin,"Makefile, JavaScript, TypeScript, Shell, HTML",24461,5203,848.9033222222222
+hwdsl2/setup-ipsec-vpn,Shell,24457,6225,141.5485277777778
+yeasy/docker_practice,Go,24436,5703,871.6517361111111
+tiangolo/full-stack-fastapi-template,"Shell, Python, Mako, HTML, Dockerfile, JavaScript, TypeScript, Jinja",24427,4120,2595.751527777778
+zyedidia/micro,"Go, Makefile, Lua, Roff, Shell",24396,1160,922.6135333333334
+mbadolato/iTerm2-Color-Schemes,"Python, Swift, Ruby, Shell",24390,6410,3455.849843137255
+rwaldron/idiomatic.js,,24391,3440,5887.659328703703
+withfig/autocomplete,"JavaScript, Shell, TypeScript, Dockerfile",24388,5397,3209.4661138888887
+matterport/Mask_RCNN,Python,24372,11654,327.08277499999997
+sdras/awesome-actions,,24364,1448,1065.9318269230769
+mifi/lossless-cut,"JavaScript, CSS, HTML, Shell, TypeScript, SCSS",24395,1210,7790.646027777778
+OpenBMB/ChatDev,"Python, HTML, JavaScript, CSS, Dockerfile, Shell",24366,3054,200.55295555555557
+jumpserver/jumpserver,"Python, CSS, Shell, Less, Dockerfile",24317,5256,5268.197713888889
+sirupsen/logrus,"Go, Shell",24295,2259,8154.386088888889
+VSCodium/vscodium,"Shell, PowerShell, XSLT",24285,1023,1184.0802305555555
+envoyproxy/envoy,"Shell, C++, Python, C, Emacs Lisp, PureBasic, Go, Thrift, Dockerfile, Rust",24271,4687,4104.6370611111115
+vercel/pkg,"JavaScript, CSS, HTML, CoffeeScript, Pug, TypeScript, Batchfile",24238,1003,8165.004819444445
+ReactiveX/RxSwift,"Swift, Ruby, Shell, Objective-C",24234,4160,425.45241944444444
+angular/components,"JavaScript, HTML, TypeScript, CSS, Shell, Starlark, SCSS",24215,6690,2749.5342805555556
+CymChad/BaseRecyclerViewAdapterHelper,"Java, Kotlin",24203,5137,55.33654444444444
+academic/awesome-datascience,,24161,5797,602.2815041928721
+locustio/locust,"Makefile, Python, HTML, Dockerfile, TypeScript, Shell",24164,2922,11733.909477777777
+Wox-launcher/Wox,"Python, TypeScript, Just, Go, Shell, Objective-C, C, Dart, CMake, C++",24156,2365,6191.858627777778
+neoclide/coc.nvim,"JavaScript, Shell, TypeScript, Python, Vim Script, Lua",24148,953,252.74133888888886
+zloirock/core-js,"JavaScript, HTML, TypeScript",24128,1625,632.2016222222222
+mdbootstrap/mdb-ui-kit,"JavaScript, HTML, SCSS",24104,3531,470.60028611111113
+Textualize/textual,"Python, Makefile, TypeScript, Jinja, Scheme",24086,741,2441.227241666667
+inconshreveable/ngrok,"Makefile, HTML, JavaScript, Go",24075,4246,12410.974783333333
+t3-oss/create-t3-app,"TypeScript, JavaScript, CSS, Astro, Shell",24077,1101,108.04128888888889
+DrKLO/Telegram,"Makefile, C, Assembly, Objective-C, C++, Perl, Java, CMake, Go, Shell",24066,7805,0
+vapor/vapor,"Swift, C, HTML",24047,1422,182.34426944444445
+chubin/wttr.in,"Python, Shell, CSS, HTML, SaltStack, Dockerfile, Go, Makefile",24025,1078,9390.772141666666
+celery/celery,"Makefile, Python, Shell, Batchfile, Dockerfile",24005,4617,1099.6919972222222
+sunface/rust-course,"CSS, JavaScript, Rust, PowerShell, Shell, Handlebars",24003,2070,181.76999444444445
+hammerjs/hammer.js,"JavaScript, CSS, HTML",23992,2626,1967.896186111111
+elixir-lang/elixir,"Shell, PowerShell, Elixir, Erlang, Makefile, Batchfile, NSIS",23994,3328,515.684038888889
+iview/iview,"JavaScript, Vue, CSS",23987,4151,152.01253333333332
+XIU2/TrackersListCollection,,23998,1569,0
+mouredev/Hello-Python,Python,23982,1593,3265.415322222222
+Netflix/Hystrix,"CSS, Clojure, Java, Groovy",23975,4702,5697.894294444444
+dimsemenov/PhotoSwipe,"JavaScript, CSS, TypeScript",23957,3317,71.70001388888889
+flameshot-org/flameshot,"C++, C, CMake, Makefile, Shell, Python, Roff, Nix",23961,1523,7937.695266666667
+vnpy/vnpy,"Python, Shell, Batchfile",23952,8496,673.3408777777778
+Igglybuff/awesome-piracy,"HTML, Shell",23947,2075,7931.437113888889
+requarks/wiki,"JavaScript, HTML, CSS, Vue, Dockerfile, Go, Shell, SCSS, Pug, Mustache",23942,2622,876.5885861111111
+fyne-io/fyne,"Go, Objective-C, C, Makefile, Java, Assembly, CSS, HTML, JavaScript, GLSL",23932,1339,2937.5451
+huggingface/diffusers,"Python, Makefile, Dockerfile",23923,4926,712.0157916666667
+johnpapa/angular-styleguide,,23908,4159,788.0799222222223
+grafana/k6,"Go, Makefile, Shell, Dockerfile, JavaScript, Python",23908,1199,2113.0462805555558
+NativeScript/NativeScript,"TypeScript, CSS, JavaScript, HTML, Shell, Objective-C, Java, SCSS, Ruby, Swift",23868,1644,4111.299469444444
+VundleVim/Vundle.vim,"Erlang, Vim Script",23867,2565,5379.637930555556
+ai/nanoid,"JavaScript, HTML",23851,778,800.9559166666667
+rome/tools,"JavaScript, SCSS, Rust, TypeScript, CSS, Shell, Astro, PowerShell, Dockerfile, Just",23831,666,804.7378555555555
+heartcombo/devise,"Ruby, HTML",23827,5535,85.82295555555557
+rwf2/Rocket,"Rust, Shell, HTML, Handlebars, Jinja",23811,1527,5051.016130555556
