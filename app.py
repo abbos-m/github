@@ -24,6 +24,7 @@ headers = {
 }
 
 CAMPAIGN_FILE = 'campaign_data.json'
+DEV_CAMPAIGN_FILE = 'dev_campaign_data.json'
 
 # Function to get repository details and issues
 def get_repo_details_and_issues(owner, repo):
@@ -149,15 +150,31 @@ def load_campaign():
             return json.load(f)
     return []
 
+# Function to save developer campaign data to a JSON file
+def save_dev_campaign(dev_campaign_data):
+    with open(DEV_CAMPAIGN_FILE, 'w') as f:
+        json.dump(dev_campaign_data, f)
+
+# Function to load developer campaign data from a JSON file
+def load_dev_campaign():
+    if os.path.exists(DEV_CAMPAIGN_FILE):
+        with open(DEV_CAMPAIGN_FILE, 'r') as f:
+            return json.load(f)
+    return []
+
 # Load the CSV data for visualizations
 csv_file_path = r'topthousandrepos.csv'
 df = pd.read_csv(csv_file_path)
 
-# Initialize the session state for campaign repositories
+# Initialize the session state for campaign repositories and developers
 if 'campaign_repos' not in st.session_state:
     st.session_state.campaign_repos = load_campaign()
 
+if 'dev_campaign' not in st.session_state:
+    st.session_state.dev_campaign = load_dev_campaign()
+
 campaign_repos = st.session_state.campaign_repos
+dev_campaign = st.session_state.dev_campaign
 
 # Create tabs
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Repo Search", "Developer Search", "Visualizations", "Campaign", "Comparison"])
@@ -207,7 +224,7 @@ with tab1:
                     issues_resolved_last_60_days = count_issues_resolved_last_60_days(issues)
 
                     # Count commits in the last 60 days
-                    commits_last_60_days = count_commits_last_60_days(latest_commit_edge)
+                    commits_last_60_days = count_commits_last_60_days(latest_commit_edge if latest_commit_edge else [])
 
                     # Display the details
                     st.write(f"**Stars:** {stargazers_count}")
@@ -259,8 +276,9 @@ with tab1:
 with tab2:
     st.title('GitHub Developer Details')
     dev_input = st.text_input('Enter the developer username:')
+    add_dev_to_campaign = st.button('Add Developer to Campaign')
 
-    if st.button('Search Developer'):
+    if st.button('Search Developer') or add_dev_to_campaign:
         if dev_input:
             dev_info, error = get_developer_details(dev_input)
 
@@ -275,15 +293,32 @@ with tab2:
 
                 # Count commits in the last 60 days for each repo
                 total_commits_last_60_days = 0
+                top_recent_repo = None
                 for repo in dev_info:
                     repo_name = repo['name']
                     owner = repo['owner']['login']
                     repo_info, error = get_repo_details_and_issues(owner, repo_name)
                     if repo_info:
-                        commits_last_60_days = count_commits_last_60_days(repo_info['data']['repository']['defaultBranchRef']['target']['history']['edges'])
+                        commits_last_60_days = count_commits_last_60_days(repo_info['data']['repository']['defaultBranchRef']['target']['history']['edges'] if repo_info['data']['repository']['defaultBranchRef'] else [])
                         total_commits_last_60_days += commits_last_60_days
+                        if not top_recent_repo or repo['created_at'] > top_recent_repo['created_at']:
+                            top_recent_repo = repo
+
+                if not top_recent_repo:
+                    top_recent_repo = {"name": "No recent repos found"}
+
+                if add_dev_to_campaign:
+                    dev_campaign.append({
+                        "github_link": user_url,
+                        "total_commits_last_60_days": total_commits_last_60_days,
+                        "top_recent_repo": top_recent_repo['name']
+                    })
+                    save_dev_campaign(dev_campaign)  # Save the developer campaign data
+                    st.success(f"Developer {dev_input} added to the campaign.")
+                    st.experimental_rerun()  # Rerun to clear the input and refresh the campaign
 
                 st.write(f"**Total commits in the last 60 days:** {total_commits_last_60_days}")
+                st.write(f"**Top recent repo:** {top_recent_repo['name']}")
 
             else:
                 st.error(f"Developer {dev_input} not found or API response is malformed.")
@@ -292,6 +327,7 @@ with tab2:
 
 with tab3:
     st.title('Visualizations')
+    st.header('Insights from 1000 Active Repositories')
 
     # Most Popular Programming Languages
     st.header('Most Popular Programming Languages')
@@ -361,81 +397,133 @@ with tab3:
 
 with tab4:
     st.title('Campaign')
-    if st.button('Clear Campaign'):
-        campaign_repos.clear()
-        save_campaign(campaign_repos)  # Clear the campaign data file
-        st.experimental_rerun()
+    campaign_type = st.selectbox('Select Campaign Type', ['Repository', 'Developer'])
 
-    if campaign_repos:
-        st.write(f"**Total Repositories in Campaign:** {len(campaign_repos)}")
-        campaign_df = pd.DataFrame(campaign_repos)
+    if campaign_type == 'Repository':
+        if st.button('Clear Campaign'):
+            campaign_repos.clear()
+            save_campaign(campaign_repos)  # Clear the campaign data file
+            st.experimental_rerun()
 
-        # Download CSV button
-        st.download_button(
-            label="Download Campaign Data as CSV",
-            data=campaign_df.to_csv(index=False).encode('utf-8'),
-            file_name='campaign_data.csv',
-            mime='text/csv'
-        )
+        if campaign_repos:
+            st.write(f"**Total Repositories in Campaign:** {len(campaign_repos)}")
+            campaign_df = pd.DataFrame(campaign_repos)
 
-        st.dataframe(campaign_df)
+            # Download CSV button
+            st.download_button(
+                label="Download Campaign Data as CSV",
+                data=campaign_df.to_csv(index=False).encode('utf-8'),
+                file_name='campaign_data.csv',
+                mime='text/csv'
+            )
 
+            st.dataframe(campaign_df)
+
+        else:
+            st.write("No repositories in the campaign. Add repositories from the Repo Search tab.")
     else:
-        st.write("No repositories in the campaign. Add repositories from the Repo Search tab.")
+        if st.button('Clear Developer Campaign'):
+            dev_campaign.clear()
+            save_dev_campaign(dev_campaign)  # Clear the developer campaign data file
+            st.experimental_rerun()
+
+        if dev_campaign:
+            st.write(f"**Total Developers in Campaign:** {len(dev_campaign)}")
+            dev_campaign_df = pd.DataFrame(dev_campaign)
+
+            # Download CSV button
+            st.download_button(
+                label="Download Developer Campaign Data as CSV",
+                data=dev_campaign_df.to_csv(index=False).encode('utf-8'),
+                file_name='dev_campaign_data.csv',
+                mime='text/csv'
+            )
+
+            st.dataframe(dev_campaign_df)
+
+        else:
+            st.write("No developers in the campaign. Add developers from the Developer Search tab.")
 
 with tab5:
     st.title('Comparison')
 
-    if len(campaign_repos) >= 2:
-        repo_options = [f"{repo['owner']}/{repo['repo_name']}" for repo in campaign_repos]
-        repo1, repo2 = st.selectbox('Select first repository to compare', repo_options), st.selectbox('Select second repository to compare', repo_options, index=1)
+    campaign_type = st.selectbox('Select Comparison Type', ['Repository', 'Developer'])
 
-        if repo1 and repo2:
-            repo1_data = next(repo for repo in campaign_repos if f"{repo['owner']}/{repo['repo_name']}" == repo1)
-            repo2_data = next(repo for repo in campaign_repos if f"{repo['owner']}/{repo['repo_name']}" == repo2)
+    if campaign_type == 'Repository':
+        if len(campaign_repos) >= 2:
+            repo_options = [f"{repo['owner']}/{repo['repo_name']}" for repo in campaign_repos]
+            repo1, repo2 = st.selectbox('Select first repository to compare', repo_options), st.selectbox('Select second repository to compare', repo_options, index=1)
 
-            st.write(f"## Comparison between {repo1} and {repo2}")
+            if repo1 and repo2:
+                repo1_data = next(repo for repo in campaign_repos if f"{repo['owner']}/{repo['repo_name']}" == repo1)
+                repo2_data = next(repo for repo in campaign_repos if f"{repo['owner']}/{repo['repo_name']}" == repo2)
 
-            if st.checkbox('Show Stars Comparison'):
-                st.write("### Stars")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['stars']}")
-                col2.write(f"**{repo2}:** {repo2_data['stars']}")
+                st.write(f"## Comparison between {repo1} and {repo2}")
 
-            if st.checkbox('Show Forks Comparison'):
-                st.write("### Forks")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['forks']}")
-                col2.write(f"**{repo2}:** {repo2_data['forks']}")
+                if st.checkbox('Show Stars Comparison'):
+                    st.write("### Stars")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['stars']}")
+                    col2.write(f"**{repo2}:** {repo2_data['stars']}")
 
-            if st.checkbox('Show Languages Comparison'):
-                st.write("### Languages")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['languages']}")
-                col2.write(f"**{repo2}:** {repo2_data['languages']}")
+                if st.checkbox('Show Forks Comparison'):
+                    st.write("### Forks")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['forks']}")
+                    col2.write(f"**{repo2}:** {repo2_data['forks']}")
 
-            if st.checkbox('Show Average Issue Resolution Time Comparison'):
-                st.write("### Average Issue Resolution Time")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['average_issue_resolution_time']}")
-                col2.write(f"**{repo2}:** {repo2_data['average_issue_resolution_time']}")
+                if st.checkbox('Show Languages Comparison'):
+                    st.write("### Languages")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['languages']}")
+                    col2.write(f"**{repo2}:** {repo2_data['languages']}")
 
-            if st.checkbox('Show Issues Solved in the Last 60 Days Comparison'):
-                st.write("### Issues Solved in the Last 60 Days")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['issues_solved_last_60_days']}")
-                col2.write(f"**{repo2}:** {repo2_data['issues_solved_last_60_days']}")
+                if st.checkbox('Show Average Issue Resolution Time Comparison'):
+                    st.write("### Average Issue Resolution Time")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['average_issue_resolution_time']}")
+                    col2.write(f"**{repo2}:** {repo2_data['average_issue_resolution_time']}")
 
-            if st.checkbox('Show Commits in the Last 60 Days Comparison'):
-                st.write("### Commits in the Last 60 Days")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['commits_last_60_days']}")
-                col2.write(f"**{repo2}:** {repo2_data['commits_last_60_days']}")
+                if st.checkbox('Show Issues Solved in the Last 60 Days Comparison'):
+                    st.write("### Issues Solved in the Last 60 Days")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['issues_solved_last_60_days']}")
+                    col2.write(f"**{repo2}:** {repo2_data['issues_solved_last_60_days']}")
 
-            if st.checkbox('Show Latest Commit Date Comparison'):
-                st.write("### Latest Commit Date")
-                col1, col2 = st.columns(2)
-                col1.write(f"**{repo1}:** {repo1_data['latest_commit_date']}")
-                col2.write(f"**{repo2}:** {repo2_data['latest_commit_date']}")
+                if st.checkbox('Show Commits in the Last 60 Days Comparison'):
+                    st.write("### Commits in the Last 60 Days")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['commits_last_60_days']}")
+                    col2.write(f"**{repo2}:** {repo2_data['commits_last_60_days']}")
+
+                if st.checkbox('Show Latest Commit Date Comparison'):
+                    st.write("### Latest Commit Date")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{repo1}:** {repo1_data['latest_commit_date']}")
+                    col2.write(f"**{repo2}:** {repo2_data['latest_commit_date']}")
+        else:
+            st.write("Add at least two repositories to the campaign for comparison.")
     else:
-        st.write("Add at least two repositories to the campaign for comparison.")
+        if len(dev_campaign) >= 2:
+            dev_options = [f"{dev['github_link']}" for dev in dev_campaign]
+            dev1, dev2 = st.selectbox('Select first developer to compare', dev_options), st.selectbox('Select second developer to compare', dev_options, index=1)
+
+            if dev1 and dev2:
+                dev1_data = next(dev for dev in dev_campaign if dev['github_link'] == dev1)
+                dev2_data = next(dev for dev in dev_campaign if dev['github_link'] == dev2)
+
+                st.write(f"## Comparison between {dev1} and {dev2}")
+
+                if st.checkbox('Show Total Commits in the Last 60 Days Comparison'):
+                    st.write("### Total Commits in the Last 60 Days")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{dev1}:** {dev1_data['total_commits_last_60_days']}")
+                    col2.write(f"**{dev2}:** {dev2_data['total_commits_last_60_days']}")
+
+                if st.checkbox('Show Top Recent Repo Comparison'):
+                    st.write("### Top Recent Repo")
+                    col1, col2 = st.columns(2)
+                    col1.write(f"**{dev1}:** {dev1_data['top_recent_repo']}")
+                    col2.write(f"**{dev2}:** {dev2_data['top_recent_repo']}")
+        else:
+            st.write("Add at least two developers to the campaign for comparison.")
